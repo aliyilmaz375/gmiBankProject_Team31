@@ -17,3 +17,23 @@ Feature: US_16 Kullanici hesaplari arasinda para transferi yapabilir
     And Description kismina aciklama yazar
     And Make Transfer butonuna tiklar
     Then kullanici para transferi yapildigini dogrular
+
+  Scenario: TC_002 Kullanici hesabinda olan paradan fazlasini gonderemez
+    And From DropDown'indan bir hesap secer
+    And To DropDown'indan bir hesap secer
+    And Balance kismina hesaptaki paradan fazla bir tutar girer
+    And Description kismina aciklama yazar
+    And Make Transfer butonuna tiklar
+    Then kullanici balance exceed hata mesaji aldigini dogrular
+
+  Scenario: TC_003 Kullanici 5 rakamdan fazla para miktari gonderemez
+    And From DropDown'indan bir hesap secer
+    And To DropDown'indan bir hesap secer
+    And Balance kismina bes rakamdan fazla para miktari yazar
+    And Description kismina aciklama yazar
+    And Make Transfer butonuna tiklar
+    Then kullanici max caracter hata mesaji aldigini dogrular
+
+  Scenario: Kullanici para transferi yaparken aciklama kismini bos birakamaz
+    
+
