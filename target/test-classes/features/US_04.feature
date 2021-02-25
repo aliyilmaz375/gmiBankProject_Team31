@@ -9,7 +9,7 @@ Feature: US_04 Login
     And kullanici password olarak "Employee31." girer
     And kullanici Sign In butonuna tiklar
     Then kullanici employee sayfasinda oldugunu dogrular
-    #And kullanici sayfayi kapatir
+    And kullanici sayfayi kapatir
 
   Scenario Outline: TC_001-005 Login Pozitif Test
 

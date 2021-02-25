@@ -1,5 +1,6 @@
 package gmibank.utilities;
 
+import gmibank.pages.US_04_Page;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
@@ -58,18 +59,55 @@ public class ReusableMethods {
         }
         return elemTexts;
     }
-/*
-    public static void globalTraderSingIn(){
-        US_1151_Page us1151Page = new US_1151_Page();
-        Driver.getDriver().get(ConfigReader.getProperty("gt_url"));
-        us1151Page.signInButton.click();
-        us1151Page.emailTextBox.sendKeys(ConfigReader.getProperty("gt_email"));
-        us1151Page.passwordTextBox.sendKeys(ConfigReader.getProperty("gt_password"));
-        us1151Page.logInButton.click();
-
+    public static void adminLogin(){
+        US_04_Page us04Page = new US_04_Page();
+        Driver.getDriver().get(ConfigReader.getProperty("gmibank_url"));
+        us04Page.svgIcon.click();
+        us04Page.signIn.click();
+        us04Page.username.sendKeys(ConfigReader.getProperty("admin_username"));
+        us04Page.password.sendKeys(ConfigReader.getProperty("admin_password"));
+        us04Page.signInButton.click();
     }
 
- */
+    public static void employeeLogin(){
+        US_04_Page us04Page = new US_04_Page();
+        Driver.getDriver().get(ConfigReader.getProperty("gmibank_url"));
+        us04Page.svgIcon.click();
+        us04Page.signIn.click();
+        us04Page.username.sendKeys(ConfigReader.getProperty("employee_username"));
+        us04Page.password.sendKeys(ConfigReader.getProperty("employee_password"));
+        us04Page.signInButton.click();
+    }
+
+    public static void managerLogin(){
+        US_04_Page us04Page = new US_04_Page();
+        Driver.getDriver().get(ConfigReader.getProperty("gmibank_url"));
+        us04Page.svgIcon.click();
+        us04Page.signIn.click();
+        us04Page.username.sendKeys(ConfigReader.getProperty("manager_username"));
+        us04Page.password.sendKeys(ConfigReader.getProperty("manager_password"));
+        us04Page.signInButton.click();
+    }
+
+    public static void customerLogin(){
+        US_04_Page us04Page = new US_04_Page();
+        Driver.getDriver().get(ConfigReader.getProperty("gmibank_url"));
+        us04Page.svgIcon.click();
+        us04Page.signIn.click();
+        us04Page.username.sendKeys(ConfigReader.getProperty("customer_username"));
+        us04Page.password.sendKeys(ConfigReader.getProperty("customer_password"));
+        us04Page.signInButton.click();
+    }
+
+    public static void userLogin(){
+        US_04_Page us04Page = new US_04_Page();
+        Driver.getDriver().get(ConfigReader.getProperty("gmibank_url"));
+        us04Page.svgIcon.click();
+        us04Page.signIn.click();
+        us04Page.username.sendKeys(ConfigReader.getProperty("user_username"));
+        us04Page.password.sendKeys(ConfigReader.getProperty("user_password"));
+        us04Page.signInButton.click();
+    }
     //========Returns the Text of the element given an element locator==//
     public static List<String> getElementsText(By locator) {
         List<WebElement> elems = Driver.getDriver().findElements(locator);
