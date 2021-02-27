@@ -54,4 +54,35 @@ public class US_16_Stepdefinitions {
     public void kullaniciParaTransferiYapildiginiDogrular() {
         Assert.assertEquals(us_16_page.succesfullMessage, "Transfer is succesfulL");
     }
+
+
+    @And("Balance kismina bes rakamdan fazla para miktari yazar")
+    public void balanceKisminaBesRakamdanFazlaParaMiktariYazar() {
+        us_16_page.balanceTextBox.sendKeys(ConfigReader.getProperty("besten_fazla_balance"));
+    }
+
+    @Then("kullanici max caracter hata mesaji aldigini dogrular")
+    public void kullaniciMaxCaracterHataMesajiAldiginiDogrular() {
+        Assert.assertEquals(us_16_page.max5Caracter,"only numbers max 5 digits");
+    }
+
+    @And("Balance kismina hesaptaki paradan fazla bir tutar girer")
+    public void balanceKisminaHesaptakiParadanFazlaBirTutarGirer() {
+        us_16_page.balanceTextBox.sendKeys(ConfigReader.getProperty("hesaptaki_paradan_fazla_balance"));
+    }
+
+    @Then("kullanici balance exceed hata mesaji aldigini dogrular")
+    public void kullaniciBalanceExceedHataMesajiAldiginiDogrular() {
+        Assert.assertEquals(us_16_page.balanceExceedMessage,"translation-not-found[error.Balanceexceed]");
+    }
+
+    @And("Description kismi bos birakilir ve Make Transfer butonuna tiklar")
+    public void descriptionKismiBosBirakilirVeMakeTransferButonunaTiklar() {
+        us_16_page.makeTransferButton.click();
+    }
+
+    @Then("kullanici bos birakilamaz hata mesajini dogrular")
+    public void kullaniciBosBirakilamazHataMesajiniDogrular() {
+        Assert.assertEquals(us_16_page.descriptionEmptyMessage,"This field is required.");
+    }
 }
