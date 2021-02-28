@@ -35,5 +35,10 @@ Feature: US_16 Kullanici hesaplari arasinda para transferi yapabilir
     Then kullanici max caracter hata mesaji aldigini dogrular
 
   Scenario: Kullanici para transferi yaparken aciklama kismini bos birakamaz
-    
+    And From DropDown'indan bir hesap secer
+    And To DropDown'indan bir hesap secer
+    And Balance kismina gecerli bir para miktarini yazar
+    And Description kismi bos birakilir ve Make Transfer butonuna tiklar
+    Then kullanici bos birakilamaz hata mesajini dogrular
+
 
