@@ -17,9 +17,6 @@ public class US_15_Page {
     @FindBy (xpath = "(//a[@class='dropdown-item'])[1]")
     public WebElement myAccounts_button;
 
-    @FindBy (xpath = "(//a[@class='dropdown-item'])[2]")
-    public WebElement transferMoney_button;
-
     @FindBy (xpath = "(//button[@class='btn btn-success btn-sm'])[1]")
     public WebElement viewTransaction_button;
 
