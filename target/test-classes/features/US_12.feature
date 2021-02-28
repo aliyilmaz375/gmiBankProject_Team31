@@ -15,6 +15,7 @@ Feature: An Employee can manage Customer
     And manage customer modulunde customer bilgilerinin goruntulendıgını test eder
 
 
+<<<<<<< HEAD
   Scenario: TC_002_There_should_be_view_option where customer can be navigated to all customer info
     And view butonuna tiklar
     And Müsteri bilgilerinin gorunurlugunu test eder
@@ -91,3 +92,8 @@ Feature: An Employee can manage Customer
     And Confirm delete mesajı goruntulenır
     And Confirm mesajındaki delete butonuna basar
     And Silme isleminin gerceklestigini test eder
+=======
+  Scenario: TC_002_ There_should_be_view_option where customer can be navigated to all customer info
+    And view butonuna tiklar
+    And Müsteri bilgilerinin gorunurlugunu test eder
+>>>>>>> main

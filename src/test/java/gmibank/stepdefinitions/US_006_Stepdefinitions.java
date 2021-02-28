@@ -82,7 +82,7 @@ public class US_006_Stepdefinitions {
 
     //==================
 
-    @Given("kullanici employee hesabina girer")
+   @Given("kullanici employee hesabina girer")
     public void kullaniciEmployeeHesabinaGirer() {
         ReusableMethods.employeeLogin();
     }
