@@ -97,7 +97,7 @@ Feature:US_13 An employee can create a new account
     Then Hata mesaji gormez
 
 
-  Scenario: TC_009  Pozitif Test 6
+  Scenario: TC_009   Negatif Test 3
     And Kullanici Description textboxuna "Vip Müsteri" açıklmasını girer
     And Kullanıcı Balance butonuna  harflerden olusan bir string girer
     And Kullanıcı Account Type drop down'dan "INVESTING" i secer
