@@ -52,7 +52,7 @@ public class US_13_Stepdefinitions {
 
     @Given("Kullanıcı Balance butonuna  harflerden olusan bir string girer")
     public void kullanıcı_balance_butonuna_harflerden_olusan_bir_string_girer() {
-        us13Page.balance.sendKeys("money");
+        us13Page.balance.sendKeys("musteri");
     }
 
 
