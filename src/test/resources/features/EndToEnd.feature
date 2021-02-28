@@ -1,5 +1,5 @@
 Feature: US_01 Register
-@wip
+
   Scenario: TC_001 register pozitif test
     Given kulllanici anasayfaya gider
     And kullanici sag ustteki simgeye tiklar
