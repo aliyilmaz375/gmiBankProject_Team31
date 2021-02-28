@@ -2,6 +2,7 @@ package gmibank.stepdefinitions;
 
 import gmibank.pages.US_16_Page;
 import gmibank.utilities.ConfigReader;
+import gmibank.utilities.ReusableMethods;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
@@ -11,16 +12,10 @@ public class US_16_Stepdefinitions {
 
     US_16_Page us_16_page = new US_16_Page();
 
-    @And("kullanici My Operations'a tiklar")
-    public void kullaniciMyOperationsATiklar() {
-        us_16_page.myOperation_button.click();
+    @And("kullanici Transfer Money'e tiklar")
+    public void kullaniciTransferMoneyETiklar() {
+        us_16_page.transferMoney_button.click();
     }
-
-    @And("kullanici My Accounts'a tiklar")
-    public void kullaniciMyAccountsATiklar() {
-        us_16_page.myAccounts_button.click();
-    }
-
 
     @And("From DropDown'indan bir hesap secer")
     public void fromDropDownIndanBirHesapSecer() {
@@ -52,7 +47,8 @@ public class US_16_Stepdefinitions {
 
     @Then("kullanici para transferi yapildigini dogrular")
     public void kullaniciParaTransferiYapildiginiDogrular() {
-        Assert.assertEquals(us_16_page.succesfullMessage, "Transfer is succesfulL");
+        ReusableMethods.waitFor(2);
+        Assert.assertTrue(us_16_page.succesfullMessage.isDisplayed());
     }
 
 
@@ -63,7 +59,7 @@ public class US_16_Stepdefinitions {
 
     @Then("kullanici max caracter hata mesaji aldigini dogrular")
     public void kullaniciMaxCaracterHataMesajiAldiginiDogrular() {
-        Assert.assertEquals(us_16_page.max5Caracter,"only numbers max 5 digits");
+        Assert.assertTrue(us_16_page.max5Caracter.isDisplayed());
     }
 
     @And("Balance kismina hesaptaki paradan fazla bir tutar girer")
@@ -73,7 +69,13 @@ public class US_16_Stepdefinitions {
 
     @Then("kullanici balance exceed hata mesaji aldigini dogrular")
     public void kullaniciBalanceExceedHataMesajiAldiginiDogrular() {
-        Assert.assertEquals(us_16_page.balanceExceedMessage,"translation-not-found[error.Balanceexceed]");
+        ReusableMethods.waitFor(2);
+        Assert.assertTrue(us_16_page.balanceExceedMessage.isDisplayed());
+    }
+
+    @Then("kullanici bos birakilamaz hata mesajini dogrular")
+    public void kullaniciBosBirakilamazHataMesajiniDogrular() {
+        Assert.assertTrue(us_16_page.descriptionEmptyMessage.isDisplayed());
     }
 
     @And("Description kismi bos birakilir ve Make Transfer butonuna tiklar")
@@ -81,8 +83,7 @@ public class US_16_Stepdefinitions {
         us_16_page.makeTransferButton.click();
     }
 
-    @Then("kullanici bos birakilamaz hata mesajini dogrular")
-    public void kullaniciBosBirakilamazHataMesajiniDogrular() {
-        Assert.assertEquals(us_16_page.descriptionEmptyMessage,"This field is required.");
-    }
+
+
+
 }

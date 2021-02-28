@@ -50,7 +50,8 @@ public class US_06_Stepdefinitions {
     }
 
     @Then("kullanici kayit mesajini dogrular")
-    public void kullanici_kayit_mesajini_dogrular() {
+    public void kullanici_kayit_mesajini_dogrular() throws InterruptedException {
+        Thread.sleep(1000);
         Assert.assertEquals(ConfigReader.getProperty("06Mesaj"),us6page.basariliMesaji.getText());
         Driver.closeDriver();
     }
@@ -82,7 +83,7 @@ public class US_06_Stepdefinitions {
 
     //==================
 
-    @Given("kullanici employee hesabina girer")
+   @Given("kullanici employee hesabina girer")
     public void kullaniciEmployeeHesabinaGirer() {
         ReusableMethods.employeeLogin();
     }

@@ -8,7 +8,7 @@ Feature: US_16 Kullanici hesaplari arasinda para transferi yapabilir
     And kullanici password olarak "Customer55." girer
     And kullanici Sign In butonuna tiklar
     And kullanici My Operations'a tiklar
-    And kullanici My Accounts'a tiklar
+    And kullanici Transfer Money'e tiklar
 
   Scenario: TC_001 Kullanici basarili bir sekilde hesaplari arasinda para transferi yapabilir
     And From DropDown'indan bir hesap secer
