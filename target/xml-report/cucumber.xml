@@ -1,16 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="7.728">
-    <testcase classname="An Employee can manage Customer" name="TC_001_Customer_Information_canbe_shown" time="7.051">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
-            <![CDATA[Given kullanici GMIBank sayfasina gider.....................................undefined
-Then Insan simgesine tiklar.................................................skipped
-And Valid username girer....................................................skipped
-And Valid password girer....................................................skipped
-And Sign in butonuna basar..................................................skipped
-And MyOperations tiklar.....................................................skipped
-And Manage Customer tiklar..................................................skipped
-Given manage customer modulunde customer bilgilerinin goruntulendıgını test eder.skipped
-]]>
-        </failure>
-    </testcase>
-</testsuite>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" time="1.587"/>
