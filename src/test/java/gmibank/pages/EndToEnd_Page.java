@@ -13,11 +13,64 @@ public class EndToEnd_Page {
         PageFactory.initElements(Driver.getDriver(),this);
     }
 
+    @FindBy(id = "account-menu")
+    public WebElement svgIcon;
+
+    @FindBy(xpath = "//a[@href='#']")
+    public WebElement loginAndRegisterButton;
+
+    @FindBy(xpath = "//*[.='Register']")
+    public WebElement registerMenuLink;
+
+    @FindBy(id = "ssn")
+    public WebElement ssnTextbox;
+
+    @FindBy(xpath = "//div[.='Your SSN is invalid']")
+    public WebElement ssnHataMesaji;
+
+    @FindBy(id = "firstname")
+    public WebElement firstnameTextbox;
+
+    @FindBy(xpath = "//div[.='Your First Name is required']")
+    public WebElement firstnameHataMesaji;
+
+    @FindBy(id = "lastname")
+    public WebElement lastnameTextbox;
+
+    @FindBy(xpath = "//div[.='Your Last Name is required']")
+    public WebElement lastnameHataMesaji;
+
+    @FindBy(id = "address")
+    public WebElement addressTextbox;
+
+    @FindBy(id = "mobilephone")
+    public WebElement mobilePhoneTextbox;
+
+    @FindBy(xpath = "//div[.='Your mobile phone number is invalid']")
+    public WebElement mobilePhoneHataMesaji;
+
+    @FindBy(id = "username")
+    public WebElement usernameTextbox;
+
+    @FindBy(id = "email")
+    public WebElement emailTextbox;
+
+    @FindBy(id = "firstPassword")
+    public WebElement firstPasswordTextbox;
+
+    @FindBy(id = "secondPassword")
+    public WebElement secondPasswordTextbox;
+
+    @FindBy(id = "register-submit")
+    public WebElement registerButton;
+
+    @FindBy(xpath = "//strong[.='Registration saved!']")
+    public WebElement registrationSuccessMessage;
+
+
     @FindBy(xpath = "(//a[@class='page-link'])[7]")
     public WebElement sonSayfa;
 
-    @FindBy(xpath = "//a[@href='/admin/user-management/werty77/edit']")
-    public WebElement aaaaa;
 
     @FindBy(xpath = "//a[@href='/admin/user-management/asdf11']")
     public WebElement aaaaaview;
@@ -102,7 +155,8 @@ public class EndToEnd_Page {
     @FindBy(xpath = "//li[@id='entity-menu']")
     public WebElement myOperation_button;
 
-
+    @FindBy(xpath = "//a[@href='/admin/user-management/werty78/edit']")
+    public WebElement aaaaa;
 
 
 }
