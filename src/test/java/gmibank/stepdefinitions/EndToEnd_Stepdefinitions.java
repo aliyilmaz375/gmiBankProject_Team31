@@ -67,6 +67,7 @@ public class EndToEnd_Stepdefinitions {
         ReusableMethods.waitFor(2);
 
         endToEndPage.usernameTextbox.sendKeys(string);
+        actions.sendKeys(Keys.PAGE_DOWN).perform();
     }
 
 
@@ -183,8 +184,9 @@ public class EndToEnd_Stepdefinitions {
         ReusableMethods.waitFor(2);
         endToEndPage.middleInitial.sendKeys("We");
         ReusableMethods.waitFor(1);
-        endToEndPage.phoneNumber.sendKeys("123-456-7890");
         actions.sendKeys(Keys.PAGE_DOWN).perform();
+        ReusableMethods.waitFor(1);
+        endToEndPage.phoneNumber.sendKeys("123-456-7890");
         ReusableMethods.waitFor(2);
         endToEndPage.zipCode.sendKeys("0101");
         ReusableMethods.waitFor(1);
@@ -230,13 +232,13 @@ public class EndToEnd_Stepdefinitions {
     @And("kullanici Description textbox ina ikinci hesap icin description girer")
     public void kullaniciDescriptionTextboxInaIkinciHesapIcinDesciriptionGirer() {
 
-        Driver.waitAndSendText(endToEndPage.descriptionTextBox,"hesap2",2);
+        Driver.waitAndSendText(endToEndPage.decriptionAccountTextBox,"hesap2",2);
     }
 
     @And("kullanici Description textbox ina birinci hesap icin description girer")
     public void kullaniciDescriptionTextboxInaBirinciHesapIcinDescriptionGirer() {
 
-        Driver.waitAndSendText(endToEndPage.descriptionTextBox,"hesap1",2);
+        Driver.waitAndSendText(endToEndPage.decriptionAccountTextBox,"hesap1",2);
     }
 
     @And("kullanici Account dropdown dan iki hesap secer")
