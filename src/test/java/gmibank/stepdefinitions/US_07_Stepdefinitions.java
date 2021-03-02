@@ -21,7 +21,8 @@ public class US_07_Stepdefinitions {
     }
 
     @Then("kullanici mail hata mesajini dogrular")
-    public void kullanici_mail_hata_mesajini_dogrular() {
+    public void kullanici_mail_hata_mesajini_dogrular() throws InterruptedException {
+        Thread.sleep(1000);
         Assert.assertTrue(us7page.hataMesajiEmail.isDisplayed());
         Driver.closeDriver();
     }
@@ -30,7 +31,8 @@ public class US_07_Stepdefinitions {
         us6page.firstName.clear();
     }
     @Then("kullanici isim hata mesajini dogrular")
-    public void kullanici_isim_hata_mesajini_dogrular() {
+    public void kullanici_isim_hata_mesajini_dogrular() throws InterruptedException {
+        Thread.sleep(1000);
         Assert.assertTrue(us7page.hataMesajiIsim.isDisplayed());
         Driver.closeDriver();
     }
