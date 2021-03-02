@@ -60,6 +60,7 @@ public class US_11_Stepdefinitions {
     public void kullaniciCreateANewCustomerITiklar() {
 
         ReusableMethods.waitFor(2);
+        actions.sendKeys(Keys.PAGE_UP).perform();
         us11Page.createNewCustomer.click();
     }
 
