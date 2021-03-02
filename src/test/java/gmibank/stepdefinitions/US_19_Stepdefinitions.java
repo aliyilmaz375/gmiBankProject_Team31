@@ -66,6 +66,8 @@ public class US_19_Stepdefinitions {
     @When("kullanici save butonuna tiklar")
     public void kullanici_save_butonuna_tiklar() {
         ReusableMethods.waitFor(1);
+        actions.sendKeys(Keys.PAGE_DOWN).perform();
+        ReusableMethods.waitFor(2);
         us19Page.saveButton.click();
     }
     @And("kullanici Balance textbox bos birakilir")
