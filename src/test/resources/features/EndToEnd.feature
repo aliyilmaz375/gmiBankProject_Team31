@@ -76,8 +76,8 @@ Feature: US_01 Register
 
     And kullanici cikis yapar
 
-    Scenario: Customer hesabina giris
-     Given kulllanici anasayfaya gider
+    #Scenario: Customer hesabina giris
+     #Given kulllanici anasayfaya gider
     And kullanici sag ustteki simgeye tiklar
     And kullanici Sign In tiklar
     And kullanici username olarak "werty85" girer
