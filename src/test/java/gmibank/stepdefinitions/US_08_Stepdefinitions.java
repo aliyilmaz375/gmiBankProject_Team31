@@ -13,8 +13,9 @@ public class US_08_Stepdefinitions {
     US_08_Page us8page = new US_08_Page();
 
     @Given("kullanici profil dropdown menusunden password secer")
-    public void kullanici_profil_dropdown_menusunden_password_secer() {
+    public void kullanici_profil_dropdown_menusunden_password_secer() throws InterruptedException {
         us6page.accountMenu.click();
+        Thread.sleep(1000);
         us8page.Password.click();
     }
 

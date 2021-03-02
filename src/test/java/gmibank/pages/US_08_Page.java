@@ -5,7 +5,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class US_08_Page {
 
-    @FindBy(xpath = "//*[.='Password']")
+    @FindBy(xpath = "//*[text()='Password']")
     public WebElement Password;
 
     @FindBy(xpath = "//input[@name='currentPassword']")
