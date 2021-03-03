@@ -4,11 +4,16 @@ Feature: US_01 Register
     Given kulllanici anasayfaya gider
     And kullanici sag ustteki simgeye tiklar
     And kullanici Register a tiklar
+    And kullanici SSN textboxina "345-45-4306" numarasini girer
     And kullanici SSN textboxina "345-45-4376" numarasini girer
     And kullanici First Name textboxina "werty" ismini girer
     And kullanici Last Name textboxina "werty" soyismini girer
     And kullanici Address textboxina "werty"  adresini girer
     And kullanici Mobile Phone Number textboxina "123-456-7890" cep telefonu numarasini girer
+
+    And kullanici Username textboxina  "werty006" kullanici adini girer
+    And kullanici Email textboxina "wer006@gmail.com" mail adresini girer
+
     And kullanici Username textboxina  "werty89" kullanici adini girer
     And kullanici Email textboxina "wert89@gmail.com" mail adresini girer
     And kullanici New password textboxina "werty55." sifresini girer
@@ -66,6 +71,8 @@ Feature: US_01 Register
     And kullanici create a new customer i tiklar
 
 
+    And Kullanici SSN search textboxina "345-45-4306" numarasini girer
+
     And Kullanici SSN search textboxina "345-45-4376" numarasini girer
     And kullanici search butonuna tiklar
 
@@ -74,12 +81,15 @@ Feature: US_01 Register
     And kullanici Account dropdown dan iki hesap secer
     And kullanici save customer butonuna tiklar
 
-    And kullanici cikis yapar
+    And kullanici sayfayi kapatir
 
     #Scenario: Customer hesabina giris
     Given kulllanici anasayfaya gider
     And kullanici sag ustteki simgeye tiklar
     And kullanici Sign In tiklar
+    And kullanici username olarak "werty006" girer
+    And kullanici password olarak "werty55." girer
+
     And kullanici username olarak "werty89" girer
     And kullanici password olarak "wery55." girer
     And kullanici Sign In butonuna tiklar
