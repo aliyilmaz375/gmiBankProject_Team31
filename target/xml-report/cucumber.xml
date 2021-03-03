@@ -1,70 +1,90 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="95.381">
-    <testcase classname="An Employee can manage Customer" name="TC_001_Customer_Information_canbe_shown" time="16.976">
-        <failure message="The following asserts failed:&#10;&#9;expected [true] but found [false]" type="java.lang.AssertionError">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="223.185">
+    <testcase classname="US_01 Register" name="TC_001 register pozitif test" time="182.281">
+        <system-out>
             <![CDATA[Given kulllanici anasayfaya gider...........................................passed
 And kullanici sag ustteki simgeye tiklar....................................passed
+And kullanici Register a tiklar.............................................passed
+And kullanici SSN textboxina "345-45-4310" numarasini girer.................passed
+And kullanici First Name textboxina "werty" ismini girer....................passed
+And kullanici Last Name textboxina "werty" soyismini girer..................passed
+And kullanici Address textboxina "werty"  adresini girer....................passed
+And kullanici Mobile Phone Number textboxina "123-456-7890" cep telefonu numarasini girer.passed
+And kullanici Username textboxina  "werty010" kullanici adini girer.........passed
+And kullanici Email textboxina "wer010@gmail.com" mail adresini girer.......passed
+And kullanici New password textboxina "werty55." sifresini girer............passed
+And kullanici New password confirmation textboxina "werty55." sifresini girer.passed
+And kullanici Register butonuna tiklar......................................passed
+And kullanici sag ustteki simgeye tiklar....................................passed
 And kullanici Sign In tiklar................................................passed
-And kullanici username olarak "Manager31" girer.............................passed
-And kullanici password olarak "Manager31." girer............................passed
+And kullanici username olarak "Admin31" girer...............................passed
+And kullanici password olarak "Admin31." girer..............................passed
 And kullanici Sign In butonuna tiklar.......................................passed
-Given kullanici My Operation i tiklar.......................................passed
+And kullanici Administration a tiklar.......................................passed
+And kullanici User Management e tiklar......................................passed
+And kullanici son sayfaya gider.............................................passed
+And kullanici son kayittaki Edit Butonuna tiklar............................passed
+And kullanici activated tiklar..............................................passed
+And kullanici Save butonuna tiklar..........................................passed
+And kullanici admin sayfasindan cikar.......................................passed
+And kullanici sag ustteki simgeye tiklar....................................passed
+And kullanici Sign In tiklar................................................passed
+And kullanici username olarak "Employee31" girer............................passed
+And kullanici password olarak "Employee31." girer...........................passed
+And kullanici Sign In butonuna tiklar.......................................passed
+When kullanici My Operations a tiklar.......................................passed
+And kullanici Manage Accounts a tiklar......................................passed
+And kullanici create a new account a tiklar.................................passed
+And kullanici Description textbox ina birinci hesap icin description girer..passed
+And kullanici Balance textbox ina bir balance girer.........................passed
+And kullanici Account Type ini secer........................................passed
+And kullanici Account Status Type ini secer.................................passed
+And kullanici Create Date secer.............................................passed
+And kullanici Close Date secer..............................................passed
+And kullanici save butonuna tiklar..........................................passed
+And kullanici create a new account a tiklar.................................passed
+And kullanici Description textbox ina ikinci hesap icin description girer...passed
+And kullanici Balance textbox ina bir balance girer.........................passed
+And kullanici Account Type ini secer........................................passed
+And kullanici Account Status Type ini secer.................................passed
+And kullanici Create Date secer.............................................passed
+And kullanici Close Date secer..............................................passed
+And kullanici save butonuna tiklar..........................................passed
+And kullanici My Operations a tiklar........................................passed
 And kullanici Manage Customer i tiklar......................................passed
-And manage customer modulunde customer bilgilerinin goruntulendıgını test eder.failed
-
-StackTrace:
-java.lang.AssertionError: The following asserts failed:
-	expected [true] but found [false]
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
-	at gmibank.stepdefinitions.US_12_StepDefinitions.manage_customer_modulunde_customer_bilgilerinin_goruntulendıgını_test_eder(US_12_StepDefinitions.java:19)
-	at ✽.manage customer modulunde customer bilgilerinin goruntulendıgını test eder(file:///C:/Users/gmzed/IdeaProjects/gmiBankProject_Team31/src/test/resources/features/US_12.feature:15)
+And kullanici create a new customer i tiklar................................passed
+And Kullanici SSN search textboxina "345-45-4310" numarasini girer..........passed
+And kullanici search butonuna tiklar........................................passed
+And kullanici diger zorunlu alanlari doldurur...............................passed
+And kullanici Account dropdown dan iki hesap secer..........................passed
+And kullanici save customer butonuna tiklar.................................passed
+And kullanici sayfayi kapatir...............................................passed
 ]]>
-        </failure>
+        </system-out>
     </testcase>
-    <testcase classname="An Employee can manage Customer" name="TC_002_ There_should_be_view_option where customer can be navigated to all customer info" time="77.747">
-        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@class='btn btn-primary']&quot;}&#10;  (Session info: chrome=88.0.4324.190)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-9E01TOQ', ip: '192.168.43.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\gmzed\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50064}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: b75aa92abdb86edc6021e834d8240747&#10;*** Element info: {Using=xpath, value=//*[@class='btn btn-primary']}" type="org.openqa.selenium.NoSuchElementException">
+    <testcase classname="US_01 Register" name="Customer hesabina giris" time="39.186">
+        <system-out>
             <![CDATA[Given kulllanici anasayfaya gider...........................................passed
 And kullanici sag ustteki simgeye tiklar....................................passed
 And kullanici Sign In tiklar................................................passed
-And kullanici username olarak "Manager31" girer.............................passed
-And kullanici password olarak "Manager31." girer............................passed
-And kullanici Sign In butonuna tiklar.......................................failed
-Given kullanici My Operation i tiklar.......................................skipped
-And kullanici Manage Customer i tiklar......................................skipped
-And view butonuna tiklar....................................................skipped
-And Müsteri bilgilerinin gorunurlugunu test eder............................skipped
-
-StackTrace:
-org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='btn btn-primary']"}
-  (Session info: chrome=88.0.4324.190)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-9E01TOQ', ip: '192.168.43.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\gmzed\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50064}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: b75aa92abdb86edc6021e834d8240747
-*** Element info: {Using=xpath, value=//*[@class='btn btn-primary']}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy19.click(Unknown Source)
-	at gmibank.stepdefinitions.US_04_Stepdefinitions.kullanici_sign_in_butonuna_tiklar(US_04_Stepdefinitions.java:48)
-	at ✽.kullanici Sign In butonuna tiklar(file:///C:/Users/gmzed/IdeaProjects/gmiBankProject_Team31/src/test/resources/features/US_12.feature:10)
+And kullanici username olarak "werty010" girer..............................passed
+And kullanici password olarak "werty55." girer..............................passed
+And kullanici Sign In butonuna tiklar.......................................passed
+And kullanici My Operations a tiklar........................................passed
+And kullanici My Accounts'a tiklar..........................................passed
+And kullanici My Operations a tiklar........................................passed
+And kullanici Transfer Money'e tiklar.......................................passed
+And kullanici from dropDown'indan bir hesap secer...........................passed
+And kullanici to dropDown'indan bir hesap secer.............................passed
+And Balance kismina gecerli bir para miktarini yazar........................passed
+And Description kismina aciklama yazar......................................passed
+And Make Transfer butonuna tiklar...........................................passed
+And kullanici My Operations a tiklar........................................passed
+And kullanici My Accounts'a tiklar..........................................passed
+And kullanici bir View Transaction butonuna tiklar..........................passed
+And kullanici w hesabindan cikis yapar......................................passed
+And kullanici home page tiklar..............................................passed
 ]]>
-        </failure>
+        </system-out>
     </testcase>
 </testsuite>

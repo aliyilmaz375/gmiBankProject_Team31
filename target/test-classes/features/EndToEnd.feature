@@ -1,34 +1,28 @@
+
 Feature: US_01 Register
 
+  @wip
   Scenario: TC_001 register pozitif test
     Given kulllanici anasayfaya gider
     And kullanici sag ustteki simgeye tiklar
     And kullanici Register a tiklar
-<<<<<<< HEAD
-    And kullanici SSN textboxina "345-45-4314" numarasini girer
-=======
-<<<<<<< HEAD
-    And kullanici SSN textboxina "345-45-4305" numarasini girer
-=======
-    And kullanici SSN textboxina "345-45-4376" numarasini girer
->>>>>>> main
->>>>>>> main
+
+
+
+    And kullanici SSN textboxina "345-45-4310" numarasini girer
+
+
     And kullanici First Name textboxina "werty" ismini girer
     And kullanici Last Name textboxina "werty" soyismini girer
     And kullanici Address textboxina "werty"  adresini girer
     And kullanici Mobile Phone Number textboxina "123-456-7890" cep telefonu numarasini girer
-<<<<<<< HEAD
-    And kullanici Username textboxina  "werty14" kullanici adini girer
-    And kullanici Email textboxina "wert14@gmail.com" mail adresini girer
-=======
-<<<<<<< HEAD
-    And kullanici Username textboxina  "werty005" kullanici adini girer
-    And kullanici Email textboxina "wer005@gmail.com" mail adresini girer
-=======
-    And kullanici Username textboxina  "werty89" kullanici adini girer
-    And kullanici Email textboxina "wert89@gmail.com" mail adresini girer
->>>>>>> main
->>>>>>> main
+
+
+
+
+    And kullanici Username textboxina  "werty010" kullanici adini girer
+    And kullanici Email textboxina "wer010@gmail.com" mail adresini girer
+
     And kullanici New password textboxina "werty55." sifresini girer
     And kullanici New password confirmation textboxina "werty55." sifresini girer
     And kullanici Register butonuna tiklar
@@ -84,15 +78,9 @@ Feature: US_01 Register
     And kullanici create a new customer i tiklar
 
 
-<<<<<<< HEAD
-    And Kullanici SSN search textboxina "345-45-4314" numarasini girer
-=======
-<<<<<<< HEAD
-    And Kullanici SSN search textboxina "345-45-4305" numarasini girer
-=======
-    And Kullanici SSN search textboxina "345-45-4376" numarasini girer
->>>>>>> main
->>>>>>> main
+
+
+    And Kullanici SSN search textboxina "345-45-4310" numarasini girer
     And kullanici search butonuna tiklar
 
     And kullanici diger zorunlu alanlari doldurur
@@ -102,24 +90,16 @@ Feature: US_01 Register
 
     And kullanici sayfayi kapatir
 
-    #Scenario: Customer hesabina giris
+    @wip
+    Scenario: Customer hesabina giris
     Given kulllanici anasayfaya gider
     And kullanici sag ustteki simgeye tiklar
     And kullanici Sign In tiklar
-<<<<<<< HEAD
-    And kullanici username olarak "werty14" girer
-    And kullanici password olarak "wery55." girer
-   And kullanici Sign In butonuna tiklar
-=======
-<<<<<<< HEAD
-    And kullanici username olarak "werty005" girer
+
+    And kullanici username olarak "werty010" girer
     And kullanici password olarak "werty55." girer
-=======
-    And kullanici username olarak "werty89" girer
-    And kullanici password olarak "wery55." girer
->>>>>>> main
-    And kullanici Sign In butonuna tiklar
->>>>>>> main
+
+   And kullanici Sign In butonuna tiklar
     And kullanici My Operations a tiklar
     And kullanici My Accounts'a tiklar
 
