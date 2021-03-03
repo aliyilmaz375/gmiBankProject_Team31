@@ -1,18 +1,18 @@
 package gmibank.stepdefinitions;
 
-import gmibank.pages.US_006_Page;
+import gmibank.pages.US_06_Page;
 import gmibank.utilities.ConfigReader;
 import gmibank.utilities.Driver;
 import gmibank.utilities.ReusableMethods;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.support.ui.Select;
 
-public class US_006_Stepdefinitions {
+public class US_06_Stepdefinitions {
 
-    US_006_Page us6page = new US_006_Page();
+    US_06_Page us6page = new US_06_Page();
+
 
     @Given("kullanici profil dropdown menusunden user info secer")
     public void kullanici_profil_dropdown_menusunden_user_info_secer() {
@@ -50,8 +50,9 @@ public class US_006_Stepdefinitions {
     }
 
     @Then("kullanici kayit mesajini dogrular")
-    public void kullanici_kayit_mesajini_dogrular() {
-        //Assert.assertEquals(ConfigReader.getProperty("06Mesaj"),us6page.SaveMesaji.getText());
+    public void kullanici_kayit_mesajini_dogrular() throws InterruptedException {
+        Thread.sleep(1000);
+        Assert.assertEquals(ConfigReader.getProperty("06Mesaj"),us6page.basariliMesaji.getText());
         Driver.closeDriver();
     }
 
@@ -157,17 +158,6 @@ public class US_006_Stepdefinitions {
 
     //====================
 
-    @Given("kullanici gecersiz email girer")
-    public void kullanici_gecersiz_email_girer() {
-        us6page.email.clear();
-        us6page.email.sendKeys(ConfigReader.getProperty("06gecersiz_mail"));
-    }
 
-    @Then("kullanici hata mesajini dogrular")
-    public void kullanici_hata_mesajini_dogrular() {
-        Assert.assertTrue(us6page.hataMesaji.isDisplayed());
-        Driver.closeDriver();
-
-    }
 
 }
