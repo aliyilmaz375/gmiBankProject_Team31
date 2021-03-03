@@ -9,11 +9,8 @@ public class US_16_Page {
    public US_16_Page(){
        PageFactory.initElements(Driver.getDriver(),this);}
 
-    @FindBy(xpath = "//li[@id='entity-menu']")
-    public WebElement myOperation_button;
-
-    @FindBy (xpath = "(//a[@class='dropdown-item'])[1]")
-    public WebElement myAccounts_button;
+    @FindBy (xpath = "//*[.='Transfer Money']")
+    public WebElement transferMoney_button;
 
     @FindBy(xpath = "//select[@id='fromAccountId']")
     public WebElement fromAccountDropDown;

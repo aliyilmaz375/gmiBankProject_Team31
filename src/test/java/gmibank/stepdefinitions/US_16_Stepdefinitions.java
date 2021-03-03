@@ -2,6 +2,7 @@ package gmibank.stepdefinitions;
 
 import gmibank.pages.US_16_Page;
 import gmibank.utilities.ConfigReader;
+import gmibank.utilities.ReusableMethods;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
@@ -11,16 +12,10 @@ public class US_16_Stepdefinitions {
 
     US_16_Page us_16_page = new US_16_Page();
 
-    @And("kullanici My Operations'a tiklar")
-    public void kullaniciMyOperationsATiklar() {
-        us_16_page.myOperation_button.click();
+    @And("kullanici Transfer Money'e tiklar")
+    public void kullaniciTransferMoneyETiklar() {
+        us_16_page.transferMoney_button.click();
     }
-
-    @And("kullanici My Accounts'a tiklar")
-    public void kullaniciMyAccountsATiklar() {
-        us_16_page.myAccounts_button.click();
-    }
-
 
     @And("From DropDown'indan bir hesap secer")
     public void fromDropDownIndanBirHesapSecer() {
@@ -52,6 +47,43 @@ public class US_16_Stepdefinitions {
 
     @Then("kullanici para transferi yapildigini dogrular")
     public void kullaniciParaTransferiYapildiginiDogrular() {
-        Assert.assertEquals(us_16_page.succesfullMessage, "Transfer is succesfulL");
+        ReusableMethods.waitFor(2);
+        Assert.assertTrue(us_16_page.succesfullMessage.isDisplayed());
     }
+
+
+    @And("Balance kismina bes rakamdan fazla para miktari yazar")
+    public void balanceKisminaBesRakamdanFazlaParaMiktariYazar() {
+        us_16_page.balanceTextBox.sendKeys(ConfigReader.getProperty("besten_fazla_balance"));
+    }
+
+    @Then("kullanici max caracter hata mesaji aldigini dogrular")
+    public void kullaniciMaxCaracterHataMesajiAldiginiDogrular() {
+        Assert.assertTrue(us_16_page.max5Caracter.isDisplayed());
+    }
+
+    @And("Balance kismina hesaptaki paradan fazla bir tutar girer")
+    public void balanceKisminaHesaptakiParadanFazlaBirTutarGirer() {
+        us_16_page.balanceTextBox.sendKeys(ConfigReader.getProperty("hesaptaki_paradan_fazla_balance"));
+    }
+
+    @Then("kullanici balance exceed hata mesaji aldigini dogrular")
+    public void kullaniciBalanceExceedHataMesajiAldiginiDogrular() {
+        ReusableMethods.waitFor(2);
+        Assert.assertTrue(us_16_page.balanceExceedMessage.isDisplayed());
+    }
+
+    @Then("kullanici bos birakilamaz hata mesajini dogrular")
+    public void kullaniciBosBirakilamazHataMesajiniDogrular() {
+        Assert.assertTrue(us_16_page.descriptionEmptyMessage.isDisplayed());
+    }
+
+    @And("Description kismi bos birakilir ve Make Transfer butonuna tiklar")
+    public void descriptionKismiBosBirakilirVeMakeTransferButonunaTiklar() {
+        us_16_page.makeTransferButton.click();
+    }
+
+
+
+
 }
