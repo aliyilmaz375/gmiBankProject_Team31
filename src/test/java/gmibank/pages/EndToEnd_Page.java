@@ -155,11 +155,7 @@ public class EndToEnd_Page {
     @FindBy(xpath = "//li[@id='entity-menu']")
     public WebElement myOperation_button;
 
-<<<<<<< HEAD
     @FindBy(xpath = "//a[@href='/admin/user-management/werty006/edit']")
-=======
-    @FindBy(xpath = "//a[@href='/admin/user-management/werty89/edit']")
->>>>>>> main
     public WebElement aaaaa;
 
     @FindBy(id = "tp-account-description")
