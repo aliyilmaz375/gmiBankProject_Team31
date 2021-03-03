@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<<<<<<< HEAD
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" time="0.375"/>
+=======
 <testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="223.185">
     <testcase classname="US_01 Register" name="TC_001 register pozitif test" time="182.281">
         <system-out>
@@ -88,3 +91,4 @@ And kullanici home page tiklar..............................................pass
         </system-out>
     </testcase>
 </testsuite>
+>>>>>>> main
