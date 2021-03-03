@@ -9,7 +9,7 @@ public class US_16_Page {
    public US_16_Page(){
        PageFactory.initElements(Driver.getDriver(),this);}
 
-    @FindBy (xpath = "(//a[@class='dropdown-item'])[2]")
+    @FindBy (xpath = "//*[.='Transfer Money']")
     public WebElement transferMoney_button;
 
     @FindBy(xpath = "//select[@id='fromAccountId']")

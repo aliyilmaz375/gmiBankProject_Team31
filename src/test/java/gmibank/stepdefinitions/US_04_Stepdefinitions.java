@@ -15,37 +15,38 @@ public class US_04_Stepdefinitions {
 
     @Given("kulllanici anasayfaya gider")
     public void kulllanici_anasayfaya_gider() {
-
+        ReusableMethods.waitFor(1);
         Driver.getDriver().get("https://gmibank.com/");
     }
 
     @Given("kullanici sag ustteki simgeye tiklar")
     public void kullanici_sag_ustteki_simgeye_tiklar() {
+        ReusableMethods.waitFor(2);
 
         Driver.waitAndClick(us04Page.svgIcon,2);
     }
 
     @Given("kullanici Sign In tiklar")
     public void kullanici_sign_in_tiklar() {
-
+        ReusableMethods.waitFor(2);
         Driver.waitAndClick(us04Page.signIn,2);
     }
 
     @Given("kullanici username olarak {string} girer")
     public void kullanici_username_olarak_girer(String string) {
-
+        ReusableMethods.waitFor(2);
         Driver.waitAndSendText(us04Page.username,string,2);
     }
 
     @Given("kullanici password olarak {string} girer")
     public void kullanici_password_olarak_girer(String string) {
-
+        ReusableMethods.waitFor(2);
         Driver.waitAndSendText(us04Page.password,string,2);
     }
 
     @Given("kullanici Sign In butonuna tiklar")
     public void kullanici_sign_in_butonuna_tiklar() {
-
+        ReusableMethods.waitFor(2);
         Driver.waitAndClick(us04Page.signInButton,2);
     }
 
