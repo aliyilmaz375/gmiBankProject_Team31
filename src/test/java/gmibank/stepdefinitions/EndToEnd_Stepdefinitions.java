@@ -112,9 +112,9 @@ public class EndToEnd_Stepdefinitions {
     @And("kullanici son kayittaki Edit Butonuna tiklar")
     public void kullaniciSonKayittakiEditButonunaTiklar() {
 
-        ReusableMethods.waitFor(2);
-        actions.sendKeys(Keys.PAGE_UP).perform();
-        ReusableMethods.waitFor(3);
+       ReusableMethods.waitFor(5);
+       actions.sendKeys(Keys.PAGE_UP).perform();
+        ReusableMethods.waitFor(5);
         endToEndPage.aaaaa.click();
     }
 
@@ -232,13 +232,13 @@ public class EndToEnd_Stepdefinitions {
     @And("kullanici Description textbox ina ikinci hesap icin description girer")
     public void kullaniciDescriptionTextboxInaIkinciHesapIcinDesciriptionGirer() {
 
-        Driver.waitAndSendText(endToEndPage.decriptionAccountTextBox,"hesap2",2);
+        Driver.waitAndSendText(endToEndPage.decriptionAccountTextBox,"hesap002",2);
     }
 
     @And("kullanici Description textbox ina birinci hesap icin description girer")
     public void kullaniciDescriptionTextboxInaBirinciHesapIcinDescriptionGirer() {
 
-        Driver.waitAndSendText(endToEndPage.decriptionAccountTextBox,"hesap1",2);
+        Driver.waitAndSendText(endToEndPage.decriptionAccountTextBox,"hesap001",2);
     }
 
     @And("kullanici Account dropdown dan iki hesap secer")
@@ -247,9 +247,9 @@ public class EndToEnd_Stepdefinitions {
         actions.sendKeys(Keys.PAGE_DOWN).perform();
         ReusableMethods.waitFor(2);
         Select select = new Select(endToEndPage.accountDropdown);
-        select.selectByVisibleText("hesap1");
+        select.selectByVisibleText("hesap001");
         actions.keyDown(Keys.CONTROL).perform();
-        select.selectByVisibleText("hesap2");
+        select.selectByVisibleText("hesap002");
     }
 
     @And("kullanici from dropDown'indan bir hesap secer")

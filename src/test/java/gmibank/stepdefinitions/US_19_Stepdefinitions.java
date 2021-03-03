@@ -17,7 +17,7 @@ public class US_19_Stepdefinitions {
     Actions actions = new Actions(Driver.getDriver());
     @When("kullanici My Operations a tiklar")
     public void kullanici_my_operations_a_tiklar() {
-        ReusableMethods.waitFor(1);
+        ReusableMethods.waitFor(2);
         us19Page.myOperations.click();
     }
     @When("kullanici Manage Accounts a tiklar")
