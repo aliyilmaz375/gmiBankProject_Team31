@@ -30,6 +30,8 @@ public class US_19_Stepdefinitions {
         ReusableMethods.waitFor(1);
         actions.sendKeys(Keys.UP).perform();
         ReusableMethods.waitFor(2);
+        actions.sendKeys(Keys.UP).perform();
+        ReusableMethods.waitFor(2);
         us19Page.createNewAccount.click();
     }
     @When("kullanici Description textbox ina desciription girer")
