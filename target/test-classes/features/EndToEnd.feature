@@ -1,16 +1,28 @@
+
 Feature: US_01 Register
 
+  @wip
   Scenario: TC_001 register pozitif test
     Given kulllanici anasayfaya gider
     And kullanici sag ustteki simgeye tiklar
     And kullanici Register a tiklar
-    And kullanici SSN textboxina "345-45-4365" numarasini girer
+
+
+
+    And kullanici SSN textboxina "345-45-4310" numarasini girer
+
+
     And kullanici First Name textboxina "werty" ismini girer
     And kullanici Last Name textboxina "werty" soyismini girer
     And kullanici Address textboxina "werty"  adresini girer
     And kullanici Mobile Phone Number textboxina "123-456-7890" cep telefonu numarasini girer
-    And kullanici Username textboxina  "werty78" kullanici adini girer
-    And kullanici Email textboxina "wert78@gmail.com" mail adresini girer
+
+
+
+
+    And kullanici Username textboxina  "werty010" kullanici adini girer
+    And kullanici Email textboxina "wer010@gmail.com" mail adresini girer
+
     And kullanici New password textboxina "werty55." sifresini girer
     And kullanici New password confirmation textboxina "werty55." sifresini girer
     And kullanici Register butonuna tiklar
@@ -66,7 +78,9 @@ Feature: US_01 Register
     And kullanici create a new customer i tiklar
 
 
-    And Kullanici SSN search textboxina "345-45-4365" numarasini girer
+
+
+    And Kullanici SSN search textboxina "345-45-4310" numarasini girer
     And kullanici search butonuna tiklar
 
     And kullanici diger zorunlu alanlari doldurur
@@ -74,15 +88,18 @@ Feature: US_01 Register
     And kullanici Account dropdown dan iki hesap secer
     And kullanici save customer butonuna tiklar
 
-    And kullanici cikis yapar
+    And kullanici sayfayi kapatir
 
-    # Customer hesabina giris
-    # Given kulllanici anasayfaya gider
+    @wip
+    Scenario: Customer hesabina giris
+    Given kulllanici anasayfaya gider
     And kullanici sag ustteki simgeye tiklar
     And kullanici Sign In tiklar
-    And kullanici username olarak "werty78" girer
+
+    And kullanici username olarak "werty010" girer
     And kullanici password olarak "werty55." girer
-    And kullanici Sign In butonuna tiklar
+
+   And kullanici Sign In butonuna tiklar
     And kullanici My Operations a tiklar
     And kullanici My Accounts'a tiklar
 
