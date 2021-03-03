@@ -1,2 +1,98 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<<<<<<< HEAD
 <testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" time="1.587"/>
+=======
+<<<<<<< HEAD
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" time="0.375"/>
+=======
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="223.185">
+    <testcase classname="US_01 Register" name="TC_001 register pozitif test" time="182.281">
+        <system-out>
+            <![CDATA[Given kulllanici anasayfaya gider...........................................passed
+And kullanici sag ustteki simgeye tiklar....................................passed
+And kullanici Register a tiklar.............................................passed
+And kullanici SSN textboxina "345-45-4310" numarasini girer.................passed
+And kullanici First Name textboxina "werty" ismini girer....................passed
+And kullanici Last Name textboxina "werty" soyismini girer..................passed
+And kullanici Address textboxina "werty"  adresini girer....................passed
+And kullanici Mobile Phone Number textboxina "123-456-7890" cep telefonu numarasini girer.passed
+And kullanici Username textboxina  "werty010" kullanici adini girer.........passed
+And kullanici Email textboxina "wer010@gmail.com" mail adresini girer.......passed
+And kullanici New password textboxina "werty55." sifresini girer............passed
+And kullanici New password confirmation textboxina "werty55." sifresini girer.passed
+And kullanici Register butonuna tiklar......................................passed
+And kullanici sag ustteki simgeye tiklar....................................passed
+And kullanici Sign In tiklar................................................passed
+And kullanici username olarak "Admin31" girer...............................passed
+And kullanici password olarak "Admin31." girer..............................passed
+And kullanici Sign In butonuna tiklar.......................................passed
+And kullanici Administration a tiklar.......................................passed
+And kullanici User Management e tiklar......................................passed
+And kullanici son sayfaya gider.............................................passed
+And kullanici son kayittaki Edit Butonuna tiklar............................passed
+And kullanici activated tiklar..............................................passed
+And kullanici Save butonuna tiklar..........................................passed
+And kullanici admin sayfasindan cikar.......................................passed
+And kullanici sag ustteki simgeye tiklar....................................passed
+And kullanici Sign In tiklar................................................passed
+And kullanici username olarak "Employee31" girer............................passed
+And kullanici password olarak "Employee31." girer...........................passed
+And kullanici Sign In butonuna tiklar.......................................passed
+When kullanici My Operations a tiklar.......................................passed
+And kullanici Manage Accounts a tiklar......................................passed
+And kullanici create a new account a tiklar.................................passed
+And kullanici Description textbox ina birinci hesap icin description girer..passed
+And kullanici Balance textbox ina bir balance girer.........................passed
+And kullanici Account Type ini secer........................................passed
+And kullanici Account Status Type ini secer.................................passed
+And kullanici Create Date secer.............................................passed
+And kullanici Close Date secer..............................................passed
+And kullanici save butonuna tiklar..........................................passed
+And kullanici create a new account a tiklar.................................passed
+And kullanici Description textbox ina ikinci hesap icin description girer...passed
+And kullanici Balance textbox ina bir balance girer.........................passed
+And kullanici Account Type ini secer........................................passed
+And kullanici Account Status Type ini secer.................................passed
+And kullanici Create Date secer.............................................passed
+And kullanici Close Date secer..............................................passed
+And kullanici save butonuna tiklar..........................................passed
+And kullanici My Operations a tiklar........................................passed
+And kullanici Manage Customer i tiklar......................................passed
+And kullanici create a new customer i tiklar................................passed
+And Kullanici SSN search textboxina "345-45-4310" numarasini girer..........passed
+And kullanici search butonuna tiklar........................................passed
+And kullanici diger zorunlu alanlari doldurur...............................passed
+And kullanici Account dropdown dan iki hesap secer..........................passed
+And kullanici save customer butonuna tiklar.................................passed
+And kullanici sayfayi kapatir...............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US_01 Register" name="Customer hesabina giris" time="39.186">
+        <system-out>
+            <![CDATA[Given kulllanici anasayfaya gider...........................................passed
+And kullanici sag ustteki simgeye tiklar....................................passed
+And kullanici Sign In tiklar................................................passed
+And kullanici username olarak "werty010" girer..............................passed
+And kullanici password olarak "werty55." girer..............................passed
+And kullanici Sign In butonuna tiklar.......................................passed
+And kullanici My Operations a tiklar........................................passed
+And kullanici My Accounts'a tiklar..........................................passed
+And kullanici My Operations a tiklar........................................passed
+And kullanici Transfer Money'e tiklar.......................................passed
+And kullanici from dropDown'indan bir hesap secer...........................passed
+And kullanici to dropDown'indan bir hesap secer.............................passed
+And Balance kismina gecerli bir para miktarini yazar........................passed
+And Description kismina aciklama yazar......................................passed
+And Make Transfer butonuna tiklar...........................................passed
+And kullanici My Operations a tiklar........................................passed
+And kullanici My Accounts'a tiklar..........................................passed
+And kullanici bir View Transaction butonuna tiklar..........................passed
+And kullanici w hesabindan cikis yapar......................................passed
+And kullanici home page tiklar..............................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
+>>>>>>> main
+>>>>>>> main

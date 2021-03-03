@@ -38,6 +38,7 @@ public class US_11_Stepdefinitions {
         us11Page.exitArea.click();
         ReusableMethods.waitFor(1);
         us11Page.SignOut.click();
+        Driver.closeDriver();
     }
 
     @Given("kullanici user dropdown kutusundan iki nci user i secer")
@@ -59,6 +60,8 @@ public class US_11_Stepdefinitions {
     @And("kullanici create a new customer i tiklar")
     public void kullaniciCreateANewCustomerITiklar() {
 
+        ReusableMethods.waitFor(1);
+        actions.sendKeys(Keys.UP).perform();
         ReusableMethods.waitFor(2);
         us11Page.createNewCustomer.click();
     }
