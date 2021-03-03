@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
         features="src/test/resources/features",
         glue="gmibank/stepdefinitions",
         dryRun = false,
-        tags="@a"
+        tags="@wip"
 )
 
 public class Runner {
