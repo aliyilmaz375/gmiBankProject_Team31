@@ -1,54 +1,24 @@
-<<<<<<< HEAD
-Feature: US_01 Register
-
-=======
 
 Feature: US_01 Register
 
-  @wip
->>>>>>> main
+  @e2e
   Scenario: TC_001 register pozitif test
     Given kulllanici anasayfaya gider
     And kullanici sag ustteki simgeye tiklar
     And kullanici Register a tiklar
-<<<<<<< HEAD
-    And kullanici SSN textboxina "345-45-4363" numarasini girer
-=======
-
-
-
-    And kullanici SSN textboxina "345-45-4310" numarasini girer
-
-
->>>>>>> main
+    And kullanici SSN textboxina "080-80-8084" numarasini girer
     And kullanici First Name textboxina "werty" ismini girer
     And kullanici Last Name textboxina "werty" soyismini girer
     And kullanici Address textboxina "werty"  adresini girer
     And kullanici Mobile Phone Number textboxina "123-456-7890" cep telefonu numarasini girer
-<<<<<<< HEAD
-    And kullanici Username textboxina  "werty75" kullanici adini girer
-    And kullanici Email textboxina "wert75@gmail.com" mail adresini girer
-=======
-
-
-
-
-    And kullanici Username textboxina  "werty010" kullanici adini girer
-    And kullanici Email textboxina "wer010@gmail.com" mail adresini girer
-
->>>>>>> main
+    And kullanici Username textboxina  "werty017" kullanici adini girer
+    And kullanici Email textboxina "werty017@gmail.com" mail adresini girer
     And kullanici New password textboxina "werty55." sifresini girer
     And kullanici New password confirmation textboxina "werty55." sifresini girer
     And kullanici Register butonuna tiklar
 
-<<<<<<< HEAD
-    # managerden son kullaniciyi aktive etme ve rol degisimi
-
-  #Given kulllanici anasayfaya gider
-=======
     # Admin hesabina giris ve son kullaniciyi aktive etme
     # Given kulllanici anasayfaya gider
->>>>>>> main
     And kullanici sag ustteki simgeye tiklar
     And kullanici Sign In tiklar
     And kullanici username olarak "Admin31" girer
@@ -73,11 +43,7 @@ Feature: US_01 Register
     When kullanici My Operations a tiklar
     And kullanici Manage Accounts a tiklar
     And kullanici create a new account a tiklar
-<<<<<<< HEAD
-    And kullanici Description textbox ina desciription girer
-=======
     And kullanici Description textbox ina birinci hesap icin description girer
->>>>>>> main
     And kullanici Balance textbox ina bir balance girer
     And kullanici Account Type ini secer
     And kullanici Account Status Type ini secer
@@ -87,11 +53,7 @@ Feature: US_01 Register
 
     # Scenario: 2 nci hesabi olusturma
     And kullanici create a new account a tiklar
-<<<<<<< HEAD
-    And kullanici Description textbox ina ikinci hesap icin desciription girer
-=======
     And kullanici Description textbox ina ikinci hesap icin description girer
->>>>>>> main
     And kullanici Balance textbox ina bir balance girer
     And kullanici Account Type ini secer
     And kullanici Account Status Type ini secer
@@ -104,71 +66,36 @@ Feature: US_01 Register
     And kullanici My Operations a tiklar
     And kullanici Manage Customer i tiklar
     And kullanici create a new customer i tiklar
-
-
-<<<<<<< HEAD
-    And Kullanici SSN search textboxina "345-45-4362" numarasini girer
+    And Kullanici SSN search textboxina "080-80-8084" numarasini girer
     And kullanici search butonuna tiklar
-
-    #burada birden fazla tesxtbox var sonra duzeltilebilir ya da kalabilir
-=======
-
-
-    And Kullanici SSN search textboxina "345-45-4310" numarasini girer
-    And kullanici search butonuna tiklar
-
->>>>>>> main
     And kullanici diger zorunlu alanlari doldurur
-
     And kullanici Account dropdown dan iki hesap secer
     And kullanici save customer butonuna tiklar
-
-<<<<<<< HEAD
-    And kullanici cikis yapar
-
-
-    Given kulllanici anasayfaya gider
-    And kullanici sag ustteki simgeye tiklar
-    And kullanici Sign In tiklar
-    And kullanici username olarak "werty75" girer
-    And kullanici password olarak "werty55." girer
-    And kullanici Sign In butonuna tiklar
-=======
     And kullanici sayfayi kapatir
 
-    @wip
+    @e2e
     Scenario: Customer hesabina giris
     Given kulllanici anasayfaya gider
     And kullanici sag ustteki simgeye tiklar
     And kullanici Sign In tiklar
-
-    And kullanici username olarak "werty010" girer
+    And kullanici username olarak "werty017" girer
     And kullanici password olarak "werty55." girer
-
    And kullanici Sign In butonuna tiklar
->>>>>>> main
     And kullanici My Operations a tiklar
     And kullanici My Accounts'a tiklar
-
     And kullanici My Operations a tiklar
     And kullanici Transfer Money'e tiklar
-
-<<<<<<< HEAD
-    And From DropDown'indan bir hesap secer
-    And To DropDown'indan bir hesap secer
-=======
     And kullanici from dropDown'indan bir hesap secer
     And kullanici to dropDown'indan bir hesap secer
->>>>>>> main
     And Balance kismina gecerli bir para miktarini yazar
     And Description kismina aciklama yazar
-
     And Make Transfer butonuna tiklar
     And kullanici My Operations a tiklar
     And kullanici My Accounts'a tiklar
     And kullanici bir View Transaction butonuna tiklar
     And kullanici w hesabindan cikis yapar
     And kullanici home page tiklar
+    And kullanici sayfayi kapatir
 
 
 
@@ -177,27 +104,3 @@ Feature: US_01 Register
 
 
 
-<<<<<<< HEAD
-
-  Scenario: 222 a
-    And kullanici Admin hesabina girer
-    And kullanici Administration a tiklar
-    And kullanici User Management e tiklar
-    And kullanici son sayfaya gider
-    And kullanici son kayittaki View Butonuna tiklar
-
-
-  Scenario: TC_02 Login
-
-    Given kulllanici anasayfaya gider
-    And kullanici sag ustteki simgeye tiklar
-    And kullanici Sign In tiklar
-    And kullanici username olarak "Employee31" girer
-    And kullanici password olarak "Employee31." girer
-    And kullanici Sign In butonuna tiklar
-
-
-
-
-=======
->>>>>>> main

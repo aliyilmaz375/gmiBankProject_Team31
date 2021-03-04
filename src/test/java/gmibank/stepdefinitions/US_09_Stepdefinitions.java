@@ -109,15 +109,6 @@ public class US_09_Stepdefinitions {
 
 
 
-
-    @Given("kullanici Save butonuna basar")
-    public void kullanici_Save_butonuna_basar() {
-
-        us09page.saveButton.click();
-
-    }
-
-
 }
 
 
