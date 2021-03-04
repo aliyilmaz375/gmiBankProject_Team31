@@ -232,13 +232,13 @@ public class EndToEnd_Stepdefinitions {
     @And("kullanici Description textbox ina ikinci hesap icin description girer")
     public void kullaniciDescriptionTextboxInaIkinciHesapIcinDesciriptionGirer() {
 
-        Driver.waitAndSendText(endToEndPage.decriptionAccountTextBox,"hesap003",2);
+        Driver.waitAndSendText(endToEndPage.decriptionAccountTextBox,"hesap005",2);
     }
 
     @And("kullanici Description textbox ina birinci hesap icin description girer")
     public void kullaniciDescriptionTextboxInaBirinciHesapIcinDescriptionGirer() {
 
-        Driver.waitAndSendText(endToEndPage.decriptionAccountTextBox,"hesap004",2);
+        Driver.waitAndSendText(endToEndPage.decriptionAccountTextBox,"hesap006",2);
     }
 
     @And("kullanici Account dropdown dan iki hesap secer")
@@ -247,9 +247,9 @@ public class EndToEnd_Stepdefinitions {
         actions.sendKeys(Keys.PAGE_DOWN).perform();
         ReusableMethods.waitFor(2);
         Select select = new Select(endToEndPage.accountDropdown);
-        select.selectByVisibleText("hesap003");
+        select.selectByVisibleText("hesap005");
         actions.keyDown(Keys.CONTROL).perform();
-        select.selectByVisibleText("hesap004");
+        select.selectByVisibleText("hesap006");
     }
 
     @And("kullanici from dropDown'indan bir hesap secer")
