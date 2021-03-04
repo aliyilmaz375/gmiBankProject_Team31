@@ -16,6 +16,7 @@ public class US_01_Stepdefinitions {
 
         Driver.getDriver().get(ConfigReader.getProperty("gmibank_url"));
     }
+
         @And("user clicks the symbol  on the top of the page")
         public void userClicksTheSymbolOnTheTopOfThePage () {
 

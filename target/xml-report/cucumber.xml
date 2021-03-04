@@ -1,23 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<<<<<<< HEAD
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" time="1.587"/>
-=======
-<<<<<<< HEAD
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" time="0.375"/>
-=======
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="223.185">
-    <testcase classname="US_01 Register" name="TC_001 register pozitif test" time="182.281">
-        <system-out>
-            <![CDATA[Given kulllanici anasayfaya gider...........................................passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="241.805">
+<testcase classname="US_01 Register" name="TC_001 register pozitif test" time="194.269">
+<system-out><![CDATA[Given kulllanici anasayfaya gider...........................................passed
 And kullanici sag ustteki simgeye tiklar....................................passed
 And kullanici Register a tiklar.............................................passed
-And kullanici SSN textboxina "345-45-4310" numarasini girer.................passed
+And kullanici SSN textboxina "080-80-8084" numarasini girer.................passed
 And kullanici First Name textboxina "werty" ismini girer....................passed
 And kullanici Last Name textboxina "werty" soyismini girer..................passed
 And kullanici Address textboxina "werty"  adresini girer....................passed
 And kullanici Mobile Phone Number textboxina "123-456-7890" cep telefonu numarasini girer.passed
-And kullanici Username textboxina  "werty010" kullanici adini girer.........passed
-And kullanici Email textboxina "wer010@gmail.com" mail adresini girer.......passed
+And kullanici Username textboxina  "werty017" kullanici adini girer.........passed
+And kullanici Email textboxina "werty017@gmail.com" mail adresini girer.....passed
 And kullanici New password textboxina "werty55." sifresini girer............passed
 And kullanici New password confirmation textboxina "werty55." sifresini girer.passed
 And kullanici Register butonuna tiklar......................................passed
@@ -59,21 +52,19 @@ And kullanici save butonuna tiklar..........................................pass
 And kullanici My Operations a tiklar........................................passed
 And kullanici Manage Customer i tiklar......................................passed
 And kullanici create a new customer i tiklar................................passed
-And Kullanici SSN search textboxina "345-45-4310" numarasini girer..........passed
+And Kullanici SSN search textboxina "080-80-8084" numarasini girer..........passed
 And kullanici search butonuna tiklar........................................passed
 And kullanici diger zorunlu alanlari doldurur...............................passed
 And kullanici Account dropdown dan iki hesap secer..........................passed
 And kullanici save customer butonuna tiklar.................................passed
 And kullanici sayfayi kapatir...............................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="US_01 Register" name="Customer hesabina giris" time="39.186">
-        <system-out>
-            <![CDATA[Given kulllanici anasayfaya gider...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US_01 Register" name="Customer hesabina giris" time="45.892">
+<system-out><![CDATA[Given kulllanici anasayfaya gider...........................................passed
 And kullanici sag ustteki simgeye tiklar....................................passed
 And kullanici Sign In tiklar................................................passed
-And kullanici username olarak "werty010" girer..............................passed
+And kullanici username olarak "werty017" girer..............................passed
 And kullanici password olarak "werty55." girer..............................passed
 And kullanici Sign In butonuna tiklar.......................................passed
 And kullanici My Operations a tiklar........................................passed
@@ -90,9 +81,7 @@ And kullanici My Accounts'a tiklar..........................................pass
 And kullanici bir View Transaction butonuna tiklar..........................passed
 And kullanici w hesabindan cikis yapar......................................passed
 And kullanici home page tiklar..............................................passed
-]]>
-        </system-out>
-    </testcase>
+And kullanici sayfayi kapatir...............................................passed
+]]></system-out>
+</testcase>
 </testsuite>
->>>>>>> main
->>>>>>> main

@@ -19,7 +19,7 @@ Background:
     And kullanici SSN e veriyi girer
     And kullanici Search butonuna basar
     And kullanici Save butonuna basar
-    
+
 
 
 

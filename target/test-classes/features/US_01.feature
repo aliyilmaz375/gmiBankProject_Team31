@@ -1,6 +1,6 @@
 Feature:gmiBank Registration
 
-  @wip
+
   Scenario: TC01 gmiBank Registration  with valid credentials
 
 
@@ -18,7 +18,6 @@ Feature:gmiBank Registration
     And user enters a new password in the new password textbox
     And user enters the new password in the  password confirmation textbox
     And user clicks  register
-    And user sees the success message
 
 
 

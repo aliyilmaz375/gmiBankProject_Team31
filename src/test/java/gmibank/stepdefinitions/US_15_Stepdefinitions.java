@@ -2,6 +2,7 @@ package gmibank.stepdefinitions;
 
 import gmibank.pages.US_15_Page;
 import gmibank.utilities.Driver;
+import gmibank.utilities.ReusableMethods;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -28,7 +29,11 @@ public class US_15_Stepdefinitions {
 
     @And("kullanici bir View Transaction butonuna tiklar")
     public void kullaniciBirViewTransactionButonunaTiklar() {
+
+        ReusableMethods.waitFor(1);
         us_15_page.viewTransaction_button.click();
+        ReusableMethods.waitFor(2);
+
     }
 
     @Then("kullanici tum Account Types'lari goruntuledigini dogrular")

@@ -15,4 +15,3 @@ Feature:gmibank Registration
     And user enters a new password in the new password textbox
     And user enters the new password in the  password confirmation textbox
     Then user clicks  register
-    And user sees the default message
