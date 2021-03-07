@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="241.805">
-<testcase classname="US_01 Register" name="TC_001 register pozitif test" time="194.269">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="333.275">
+<testcase classname="US_01 Register" name="TC_001 register pozitif test" time="273.153">
 <system-out><![CDATA[Given kulllanici anasayfaya gider...........................................passed
 And kullanici sag ustteki simgeye tiklar....................................passed
 And kullanici Register a tiklar.............................................passed
-And kullanici SSN textboxina "080-80-8084" numarasini girer.................passed
+And kullanici SSN textboxina "080-80-8087" numarasini girer.................passed
 And kullanici First Name textboxina "werty" ismini girer....................passed
 And kullanici Last Name textboxina "werty" soyismini girer..................passed
 And kullanici Address textboxina "werty"  adresini girer....................passed
 And kullanici Mobile Phone Number textboxina "123-456-7890" cep telefonu numarasini girer.passed
-And kullanici Username textboxina  "werty017" kullanici adini girer.........passed
-And kullanici Email textboxina "werty017@gmail.com" mail adresini girer.....passed
+And kullanici Username textboxina  "werty020" kullanici adini girer.........passed
+And kullanici Email textboxina "werty020@gmail.com" mail adresini girer.....passed
 And kullanici New password textboxina "werty55." sifresini girer............passed
 And kullanici New password confirmation textboxina "werty55." sifresini girer.passed
 And kullanici Register butonuna tiklar......................................passed
@@ -52,7 +52,7 @@ And kullanici save butonuna tiklar..........................................pass
 And kullanici My Operations a tiklar........................................passed
 And kullanici Manage Customer i tiklar......................................passed
 And kullanici create a new customer i tiklar................................passed
-And Kullanici SSN search textboxina "080-80-8084" numarasini girer..........passed
+And Kullanici SSN search textboxina "080-80-8087" numarasini girer..........passed
 And kullanici search butonuna tiklar........................................passed
 And kullanici diger zorunlu alanlari doldurur...............................passed
 And kullanici Account dropdown dan iki hesap secer..........................passed
@@ -60,11 +60,11 @@ And kullanici save customer butonuna tiklar.................................pass
 And kullanici sayfayi kapatir...............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US_01 Register" name="Customer hesabina giris" time="45.892">
+<testcase classname="US_01 Register" name="Customer hesabina giris" time="55.054">
 <system-out><![CDATA[Given kulllanici anasayfaya gider...........................................passed
 And kullanici sag ustteki simgeye tiklar....................................passed
 And kullanici Sign In tiklar................................................passed
-And kullanici username olarak "werty017" girer..............................passed
+And kullanici username olarak "werty020" girer..............................passed
 And kullanici password olarak "werty55." girer..............................passed
 And kullanici Sign In butonuna tiklar.......................................passed
 And kullanici My Operations a tiklar........................................passed
