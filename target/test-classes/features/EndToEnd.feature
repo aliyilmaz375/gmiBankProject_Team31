@@ -6,13 +6,13 @@ Feature: US_01 Register
     Given kulllanici anasayfaya gider
     And kullanici sag ustteki simgeye tiklar
     And kullanici Register a tiklar
-    And kullanici SSN textboxina "080-80-8084" numarasini girer
+    And kullanici SSN textboxina "080-80-8085" numarasini girer
     And kullanici First Name textboxina "werty" ismini girer
     And kullanici Last Name textboxina "werty" soyismini girer
     And kullanici Address textboxina "werty"  adresini girer
     And kullanici Mobile Phone Number textboxina "123-456-7890" cep telefonu numarasini girer
-    And kullanici Username textboxina  "werty017" kullanici adini girer
-    And kullanici Email textboxina "werty017@gmail.com" mail adresini girer
+    And kullanici Username textboxina  "werty018" kullanici adini girer
+    And kullanici Email textboxina "werty018@gmail.com" mail adresini girer
     And kullanici New password textboxina "werty55." sifresini girer
     And kullanici New password confirmation textboxina "werty55." sifresini girer
     And kullanici Register butonuna tiklar
@@ -66,7 +66,7 @@ Feature: US_01 Register
     And kullanici My Operations a tiklar
     And kullanici Manage Customer i tiklar
     And kullanici create a new customer i tiklar
-    And Kullanici SSN search textboxina "080-80-8084" numarasini girer
+    And Kullanici SSN search textboxina "080-80-8085" numarasini girer
     And kullanici search butonuna tiklar
     And kullanici diger zorunlu alanlari doldurur
     And kullanici Account dropdown dan iki hesap secer
@@ -78,7 +78,7 @@ Feature: US_01 Register
     Given kulllanici anasayfaya gider
     And kullanici sag ustteki simgeye tiklar
     And kullanici Sign In tiklar
-    And kullanici username olarak "werty017" girer
+    And kullanici username olarak "werty018" girer
     And kullanici password olarak "werty55." girer
    And kullanici Sign In butonuna tiklar
     And kullanici My Operations a tiklar
