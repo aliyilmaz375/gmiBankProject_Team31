@@ -3,6 +3,7 @@
     "line": 2,
     "elements": [
       {
+<<<<<<< HEAD
         "line": 4,
         "name": "",
         "description": "",
@@ -15,6 +16,44 @@
               "status": "passed"
             },
             "line": 5,
+=======
+        "start_timestamp": "2021-03-04T21:51:32.870Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "gmibank.stepdefinitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "TC_001 register pozitif test",
+        "description": "",
+        "id": "us-01-register;tc-001-register-pozitif-test",
+        "after": [
+          {
+            "result": {
+              "duration": 6331000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 30738000000,
+              "status": "passed"
+            },
+            "line": 6,
+>>>>>>> main
             "name": "kulllanici anasayfaya gider",
             "match": {
               "location": "gmibank.stepdefinitions.US_04_Stepdefinitions.kulllanici_anasayfaya_gider()"
@@ -23,10 +62,17 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 83000000,
               "status": "passed"
             },
             "line": 6,
+=======
+              "duration": 2344000000,
+              "status": "passed"
+            },
+            "line": 7,
+>>>>>>> main
             "name": "kullanici sag ustteki simgeye tiklar",
             "match": {
               "location": "gmibank.stepdefinitions.US_04_Stepdefinitions.kullanici_sag_ustteki_simgeye_tiklar()"
@@ -35,6 +81,7 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 116000000,
               "status": "passed"
             },
@@ -42,11 +89,21 @@
             "name": "kullanici Sign In tiklar",
             "match": {
               "location": "gmibank.stepdefinitions.US_04_Stepdefinitions.kullanici_sign_in_tiklar()"
+=======
+              "duration": 1201000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "kullanici Register a tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.EndToEnd_Stepdefinitions.kullanici_Register_a_tiklar()"
+>>>>>>> main
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 101000000,
               "status": "passed"
             },
@@ -60,11 +117,27 @@
                 }
               ],
               "location": "gmibank.stepdefinitions.US_04_Stepdefinitions.kullanici_username_olarak_girer(java.lang.String)"
+=======
+              "duration": 2696000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "kullanici SSN textboxina \"080-80-8087\" numarasini girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"080-80-8087\"",
+                  "offset": 25
+                }
+              ],
+              "location": "gmibank.stepdefinitions.EndToEnd_Stepdefinitions.kullanici_SSN_textboxina_numarasini_girer(java.lang.String)"
+>>>>>>> main
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 105000000,
               "status": "passed"
             },
@@ -78,11 +151,27 @@
                 }
               ],
               "location": "gmibank.stepdefinitions.US_04_Stepdefinitions.kullanici_password_olarak_girer(java.lang.String)"
+=======
+              "duration": 447000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "kullanici First Name textboxina \"werty\" ismini girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"werty\"",
+                  "offset": 32
+                }
+              ],
+              "location": "gmibank.stepdefinitions.EndToEnd_Stepdefinitions.kullanici_First_Name_textboxina_ismini_girer(java.lang.String)"
+>>>>>>> main
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 86000000,
               "status": "passed"
             },
@@ -147,11 +236,99 @@
             "name": "kullanici Manage Accounts a tiklar",
             "match": {
               "location": "gmibank.stepdefinitions.US_19_Stepdefinitions.kullanici_manage_accounts_a_tiklar()"
+=======
+              "duration": 588000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "kullanici Last Name textboxina \"werty\" soyismini girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"werty\"",
+                  "offset": 31
+                }
+              ],
+              "location": "gmibank.stepdefinitions.EndToEnd_Stepdefinitions.kullanici_Last_Name_textboxina_soyismini_girer(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
+              "duration": 440000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "kullanici Address textboxina \"werty\"  adresini girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"werty\"",
+                  "offset": 29
+                }
+              ],
+              "location": "gmibank.stepdefinitions.EndToEnd_Stepdefinitions.kullanici_Address_textboxina_adresini_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2537000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "kullanici Mobile Phone Number textboxina \"123-456-7890\" cep telefonu numarasini girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123-456-7890\"",
+                  "offset": 41
+                }
+              ],
+              "location": "gmibank.stepdefinitions.EndToEnd_Stepdefinitions.kullanici_Mobile_Phone_Number_textboxina_cep_telefonu_numarasini_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2404000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "kullanici Username textboxina  \"werty020\" kullanici adini girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"werty020\"",
+                  "offset": 31
+                }
+              ],
+              "location": "gmibank.stepdefinitions.EndToEnd_Stepdefinitions.kullanici_Username_textboxina_kullanici_adini_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 773000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "kullanici Email textboxina \"werty020@gmail.com\" mail adresini girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"werty020@gmail.com\"",
+                  "offset": 27
+                }
+              ],
+              "location": "gmibank.stepdefinitions.EndToEnd_Stepdefinitions.kullanici_Email_textboxina_mail_adresini_girer(java.lang.String)"
+>>>>>>> main
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
               "duration": 5724000000,
               "status": "passed"
             },
@@ -159,11 +336,27 @@
             "name": "kullanici create a new account a tiklar",
             "match": {
               "location": "gmibank.stepdefinitions.US_19_Stepdefinitions.kullanici_create_a_new_account_a_tiklar()"
+=======
+              "duration": 466000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "kullanici New password textboxina \"werty55.\" sifresini girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"werty55.\"",
+                  "offset": 34
+                }
+              ],
+              "location": "gmibank.stepdefinitions.EndToEnd_Stepdefinitions.kullanici_New_password_textboxina_sifresini_girer(java.lang.String)"
+>>>>>>> main
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 2153000000,
               "status": "passed"
             },
@@ -171,11 +364,27 @@
             "name": "kullanici Description textbox ina desciription girer",
             "match": {
               "location": "gmibank.stepdefinitions.US_19_Stepdefinitions.kullanici_description_textbox_ina_desciription_girer()"
+=======
+              "duration": 384000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "kullanici New password confirmation textboxina \"werty55.\" sifresini girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"werty55.\"",
+                  "offset": 47
+                }
+              ],
+              "location": "gmibank.stepdefinitions.EndToEnd_Stepdefinitions.kullanici_New_password_confirmation_textboxina_sifresini_girer(java.lang.String)"
+>>>>>>> main
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 99000000,
               "status": "passed"
             },
@@ -183,11 +392,21 @@
             "name": "kullanici Balance textbox ina bir balance girer",
             "match": {
               "location": "gmibank.stepdefinitions.US_19_Stepdefinitions.kullanici_balance_textbox_ina_bir_balance_girer()"
+=======
+              "duration": 1273000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "kullanici Register butonuna tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.EndToEnd_Stepdefinitions.kullanici_Register_butonuna_tiklar()"
+>>>>>>> main
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 2216000000,
               "status": "passed"
             },
@@ -195,11 +414,21 @@
             "name": "kullanici Account Type ini secer",
             "match": {
               "location": "gmibank.stepdefinitions.US_19_Stepdefinitions.kullanici_account_type_ini_secer()"
+=======
+              "duration": 2281000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "kullanici sag ustteki simgeye tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_04_Stepdefinitions.kullanici_sag_ustteki_simgeye_tiklar()"
+>>>>>>> main
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 2133000000,
               "status": "passed"
             },
@@ -207,11 +436,21 @@
             "name": "kullanici Account Status Type ini secer",
             "match": {
               "location": "gmibank.stepdefinitions.US_19_Stepdefinitions.kullanici_account_status_type_ini_secer()"
+=======
+              "duration": 2466000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "kullanici Sign In tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_04_Stepdefinitions.kullanici_sign_in_tiklar()"
+>>>>>>> main
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 2199000000,
               "status": "passed"
             },
@@ -219,11 +458,27 @@
             "name": "kullanici Create Date secer",
             "match": {
               "location": "gmibank.stepdefinitions.US_19_Stepdefinitions.kullanici_create_date_secer()"
+=======
+              "duration": 2202000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "kullanici username olarak \"Admin31\" girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin31\"",
+                  "offset": 26
+                }
+              ],
+              "location": "gmibank.stepdefinitions.US_04_Stepdefinitions.kullanici_username_olarak_girer(java.lang.String)"
+>>>>>>> main
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 2203000000,
               "status": "passed"
             },
@@ -231,11 +486,27 @@
             "name": "kullanici Close Date secer",
             "match": {
               "location": "gmibank.stepdefinitions.US_19_Stepdefinitions.kullanici_close_date_secer()"
+=======
+              "duration": 2468000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "kullanici password olarak \"Admin31.\" girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin31.\"",
+                  "offset": 26
+                }
+              ],
+              "location": "gmibank.stepdefinitions.US_04_Stepdefinitions.kullanici_password_olarak_girer(java.lang.String)"
+>>>>>>> main
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1101000000,
               "status": "passed"
             },
@@ -243,11 +514,21 @@
             "name": "kullanici save butonuna tiklar",
             "match": {
               "location": "gmibank.stepdefinitions.US_19_Stepdefinitions.kullanici_save_butonuna_tiklar()"
+=======
+              "duration": 2303000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "kullanici Sign In butonuna tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_04_Stepdefinitions.kullanici_sign_in_butonuna_tiklar()"
+>>>>>>> main
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 8378000000,
               "status": "passed"
             },
@@ -290,6 +571,96 @@
               "status": "passed"
             },
             "line": 6,
+=======
+              "duration": 1245000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "kullanici Administration a tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_17_Stepdefinitions.kullanici_administration_a_tiklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 391000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "kullanici User Management e tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_17_Stepdefinitions.kullanici_user_management_e_tiklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2920000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "kullanici son sayfaya gider",
+            "match": {
+              "location": "gmibank.stepdefinitions.EndToEnd_Stepdefinitions.kullaniciSonSayfayaGider()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8608000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "kullanici son kayittaki Edit Butonuna tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.EndToEnd_Stepdefinitions.kullaniciSonKayittakiEditButonunaTiklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1162000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "kullanici activated tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.EndToEnd_Stepdefinitions.kullaniciActivatedTiklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2533000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "kullanici Save butonuna tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_18_Stepdefinitions.kullaniciSaveButonunaTiklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3091000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "kullanici admin sayfasindan cikar",
+            "match": {
+              "location": "gmibank.stepdefinitions.EndToEnd_Stepdefinitions.kullaniciAdminSayfasindanCikar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2228000000,
+              "status": "passed"
+            },
+            "line": 36,
+>>>>>>> main
             "name": "kullanici sag ustteki simgeye tiklar",
             "match": {
               "location": "gmibank.stepdefinitions.US_04_Stepdefinitions.kullanici_sag_ustteki_simgeye_tiklar()"
@@ -298,10 +669,17 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 75000000,
               "status": "passed"
             },
             "line": 7,
+=======
+              "duration": 2356000000,
+              "status": "passed"
+            },
+            "line": 37,
+>>>>>>> main
             "name": "kullanici Sign In tiklar",
             "match": {
               "location": "gmibank.stepdefinitions.US_04_Stepdefinitions.kullanici_sign_in_tiklar()"
@@ -310,6 +688,7 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 33150000000,
               "status": "passed"
             },
@@ -319,6 +698,17 @@
               "arguments": [
                 {
                   "val": "\"Manager31\"",
+=======
+              "duration": 2305000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "kullanici username olarak \"Employee31\" girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Employee31\"",
+>>>>>>> main
                   "offset": 26
                 }
               ],
@@ -328,6 +718,7 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 33186000000,
               "status": "passed"
             },
@@ -337,6 +728,17 @@
               "arguments": [
                 {
                   "val": "\"Manager31.\"",
+=======
+              "duration": 2506000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "kullanici password olarak \"Employee31.\" girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Employee31.\"",
+>>>>>>> main
                   "offset": 26
                 }
               ],
@@ -346,16 +748,24 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@class\u003d\u0027btn btn-primary\u0027]\"}\n  (Session info: chrome\u003d88.0.4324.190)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-52DN1VUN\u0027, ip: \u0027192.168.1.80\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_251\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\\Users\\GEBRUI~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:61066}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 16d77d170fe67295f412ffe64b222f4f\n*** Element info: {Using\u003dxpath, value\u003d//*[@class\u003d\u0027btn btn-primary\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy18.click(Unknown Source)\r\n\tat gmibank.stepdefinitions.US_04_Stepdefinitions.kullanici_sign_in_butonuna_tiklar(US_04_Stepdefinitions.java:48)\r\n\tat ✽.kullanici Sign In butonuna tiklar(file:///C:/Users/Gebruiker/IdeaProjects/gmiBankProject_Team31/src/test/resources/features/US_19.feature:10)\r\n",
               "duration": 10065000000,
               "status": "failed"
             },
             "line": 10,
+=======
+              "duration": 2288000000,
+              "status": "passed"
+            },
+            "line": 40,
+>>>>>>> main
             "name": "kullanici Sign In butonuna tiklar",
             "match": {
               "location": "gmibank.stepdefinitions.US_04_Stepdefinitions.kullanici_sign_in_butonuna_tiklar()"
             },
             "keyword": "And "
+<<<<<<< HEAD
           }
         ]
       },
@@ -401,6 +811,15 @@
               "status": "skipped"
             },
             "line": 28,
+=======
+          },
+          {
+            "result": {
+              "duration": 2475000000,
+              "status": "passed"
+            },
+            "line": 43,
+>>>>>>> main
             "name": "kullanici My Operations a tiklar",
             "match": {
               "location": "gmibank.stepdefinitions.US_19_Stepdefinitions.kullanici_my_operations_a_tiklar()"
@@ -409,9 +828,16 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "status": "skipped"
             },
             "line": 29,
+=======
+              "duration": 1333000000,
+              "status": "passed"
+            },
+            "line": 44,
+>>>>>>> main
             "name": "kullanici Manage Accounts a tiklar",
             "match": {
               "location": "gmibank.stepdefinitions.US_19_Stepdefinitions.kullanici_manage_accounts_a_tiklar()"
@@ -420,9 +846,16 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "status": "skipped"
             },
             "line": 30,
+=======
+              "duration": 28007000000,
+              "status": "passed"
+            },
+            "line": 45,
+>>>>>>> main
             "name": "kullanici create a new account a tiklar",
             "match": {
               "location": "gmibank.stepdefinitions.US_19_Stepdefinitions.kullanici_create_a_new_account_a_tiklar()"
@@ -431,31 +864,58 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "status": "skipped"
             },
             "line": 31,
             "name": "kullanici Description textbox ina desciription girer",
             "match": {
               "location": "gmibank.stepdefinitions.US_19_Stepdefinitions.kullanici_description_textbox_ina_desciription_girer()"
+=======
+              "duration": 502000000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "kullanici Description textbox ina birinci hesap icin description girer",
+            "match": {
+              "location": "gmibank.stepdefinitions.EndToEnd_Stepdefinitions.kullaniciDescriptionTextboxInaBirinciHesapIcinDescriptionGirer()"
+>>>>>>> main
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
               "status": "skipped"
             },
             "line": 32,
             "name": "kullanici Balance textbox bos birakilir",
             "match": {
               "location": "gmibank.stepdefinitions.US_19_Stepdefinitions.kullaniciBalanceTextboxBosBirakilir()"
+=======
+              "duration": 337000000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "kullanici Balance textbox ina bir balance girer",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_19_Stepdefinitions.kullanici_balance_textbox_ina_bir_balance_girer()"
+>>>>>>> main
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
               "status": "skipped"
             },
             "line": 33,
+=======
+              "duration": 2397000000,
+              "status": "passed"
+            },
+            "line": 48,
+>>>>>>> main
             "name": "kullanici Account Type ini secer",
             "match": {
               "location": "gmibank.stepdefinitions.US_19_Stepdefinitions.kullanici_account_type_ini_secer()"
@@ -464,9 +924,16 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "status": "skipped"
             },
             "line": 34,
+=======
+              "duration": 2162000000,
+              "status": "passed"
+            },
+            "line": 49,
+>>>>>>> main
             "name": "kullanici Account Status Type ini secer",
             "match": {
               "location": "gmibank.stepdefinitions.US_19_Stepdefinitions.kullanici_account_status_type_ini_secer()"
@@ -475,9 +942,16 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "status": "skipped"
             },
             "line": 35,
+=======
+              "duration": 3033000000,
+              "status": "passed"
+            },
+            "line": 50,
+>>>>>>> main
             "name": "kullanici Create Date secer",
             "match": {
               "location": "gmibank.stepdefinitions.US_19_Stepdefinitions.kullanici_create_date_secer()"
@@ -486,9 +960,16 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "status": "skipped"
             },
             "line": 36,
+=======
+              "duration": 2668000000,
+              "status": "passed"
+            },
+            "line": 51,
+>>>>>>> main
             "name": "kullanici Close Date secer",
             "match": {
               "location": "gmibank.stepdefinitions.US_19_Stepdefinitions.kullanici_close_date_secer()"
@@ -497,9 +978,16 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "status": "skipped"
             },
             "line": 37,
+=======
+              "duration": 3319000000,
+              "status": "passed"
+            },
+            "line": 52,
+>>>>>>> main
             "name": "kullanici save butonuna tiklar",
             "match": {
               "location": "gmibank.stepdefinitions.US_19_Stepdefinitions.kullanici_save_butonuna_tiklar()"
@@ -508,6 +996,7 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1000000,
               "status": "skipped"
             },
@@ -553,11 +1042,33 @@
             "name": "kullanici sag ustteki simgeye tiklar",
             "match": {
               "location": "gmibank.stepdefinitions.US_04_Stepdefinitions.kullanici_sag_ustteki_simgeye_tiklar()"
+=======
+              "duration": 37312000000,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "kullanici create a new account a tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_19_Stepdefinitions.kullanici_create_a_new_account_a_tiklar()"
             },
             "keyword": "And "
           },
           {
             "result": {
+              "duration": 597000000,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "kullanici Description textbox ina ikinci hesap icin description girer",
+            "match": {
+              "location": "gmibank.stepdefinitions.EndToEnd_Stepdefinitions.kullaniciDescriptionTextboxInaIkinciHesapIcinDesciriptionGirer()"
+>>>>>>> main
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
               "duration": 112000000,
               "status": "passed"
             },
@@ -565,11 +1076,21 @@
             "name": "kullanici Sign In tiklar",
             "match": {
               "location": "gmibank.stepdefinitions.US_04_Stepdefinitions.kullanici_sign_in_tiklar()"
+=======
+              "duration": 350000000,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "kullanici Balance textbox ina bir balance girer",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_19_Stepdefinitions.kullanici_balance_textbox_ina_bir_balance_girer()"
+>>>>>>> main
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 33165000000,
               "status": "passed"
             },
@@ -583,11 +1104,21 @@
                 }
               ],
               "location": "gmibank.stepdefinitions.US_04_Stepdefinitions.kullanici_username_olarak_girer(java.lang.String)"
+=======
+              "duration": 2350000000,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "kullanici Account Type ini secer",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_19_Stepdefinitions.kullanici_account_type_ini_secer()"
+>>>>>>> main
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 33189000000,
               "status": "passed"
             },
@@ -601,11 +1132,21 @@
                 }
               ],
               "location": "gmibank.stepdefinitions.US_04_Stepdefinitions.kullanici_password_olarak_girer(java.lang.String)"
+=======
+              "duration": 2157000000,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "kullanici Account Status Type ini secer",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_19_Stepdefinitions.kullanici_account_status_type_ini_secer()"
+>>>>>>> main
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
               "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@class\u003d\u0027btn btn-primary\u0027]\"}\n  (Session info: chrome\u003d88.0.4324.190)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-52DN1VUN\u0027, ip: \u0027192.168.1.80\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_251\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\\Users\\GEBRUI~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:61066}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 16d77d170fe67295f412ffe64b222f4f\n*** Element info: {Using\u003dxpath, value\u003d//*[@class\u003d\u0027btn btn-primary\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy18.click(Unknown Source)\r\n\tat gmibank.stepdefinitions.US_04_Stepdefinitions.kullanici_sign_in_butonuna_tiklar(US_04_Stepdefinitions.java:48)\r\n\tat ✽.kullanici Sign In butonuna tiklar(file:///C:/Users/Gebruiker/IdeaProjects/gmiBankProject_Team31/src/test/resources/features/US_19.feature:10)\r\n",
               "duration": 10057000000,
               "status": "failed"
@@ -675,69 +1216,11 @@
             "name": "kullanici Manage Accounts a tiklar",
             "match": {
               "location": "gmibank.stepdefinitions.US_19_Stepdefinitions.kullanici_manage_accounts_a_tiklar()"
+=======
+              "duration": 2588000000,
+              "status": "passed"
             },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 44,
-            "name": "kullanici create a new account a tiklar",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_19_Stepdefinitions.kullanici_create_a_new_account_a_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 45,
-            "name": "kullanici Description textbox bos birakilir",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_19_Stepdefinitions.kullaniciDescriptionTextboxBosBirakilir()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 46,
-            "name": "kullanici Balance textbox ina bir balance girer",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_19_Stepdefinitions.kullanici_balance_textbox_ina_bir_balance_girer()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 47,
-            "name": "kullanici Account Type ini secer",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_19_Stepdefinitions.kullanici_account_type_ini_secer()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 48,
-            "name": "kullanici Account Status Type ini secer",
-            "match": {
-              "location": "gmibank.stepdefinitions.US_19_Stepdefinitions.kullanici_account_status_type_ini_secer()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 49,
+            "line": 60,
             "name": "kullanici Create Date secer",
             "match": {
               "location": "gmibank.stepdefinitions.US_19_Stepdefinitions.kullanici_create_date_secer()"
@@ -746,9 +1229,10 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2646000000,
+              "status": "passed"
             },
-            "line": 50,
+            "line": 61,
             "name": "kullanici Close Date secer",
             "match": {
               "location": "gmibank.stepdefinitions.US_19_Stepdefinitions.kullanici_close_date_secer()"
@@ -757,17 +1241,194 @@
           },
           {
             "result": {
+              "duration": 3392000000,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "kullanici save butonuna tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_19_Stepdefinitions.kullanici_save_butonuna_tiklar()"
+>>>>>>> main
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "status": "skipped"
+            },
+            "line": 44,
+            "name": "kullanici create a new account a tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_19_Stepdefinitions.kullanici_create_a_new_account_a_tiklar()"
+=======
+              "duration": 39568000000,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "kullanici My Operations a tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_19_Stepdefinitions.kullanici_my_operations_a_tiklar()"
+>>>>>>> main
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "status": "skipped"
+            },
+            "line": 45,
+            "name": "kullanici Description textbox bos birakilir",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_19_Stepdefinitions.kullaniciDescriptionTextboxBosBirakilir()"
+=======
+              "duration": 2131000000,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "kullanici Manage Customer i tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_18_Stepdefinitions.kullaniciManageCustomerITiklar()"
+>>>>>>> main
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "status": "skipped"
+            },
+            "line": 46,
+            "name": "kullanici Balance textbox ina bir balance girer",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_19_Stepdefinitions.kullanici_balance_textbox_ina_bir_balance_girer()"
+=======
+              "duration": 5303000000,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "kullanici create a new customer i tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_11_Stepdefinitions.kullaniciCreateANewCustomerITiklar()"
+>>>>>>> main
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "status": "skipped"
+            },
+            "line": 47,
+            "name": "kullanici Account Type ini secer",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_19_Stepdefinitions.kullanici_account_type_ini_secer()"
+=======
+              "duration": 2988000000,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "Kullanici SSN search textboxina \"080-80-8087\" numarasini girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"080-80-8087\"",
+                  "offset": 32
+                }
+              ],
+              "location": "gmibank.stepdefinitions.EndToEnd_Stepdefinitions.kullaniciSSNSearchTextboxinaNumarasiniGirer(java.lang.String)"
+>>>>>>> main
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "status": "skipped"
+            },
+            "line": 48,
+            "name": "kullanici Account Status Type ini secer",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_19_Stepdefinitions.kullanici_account_status_type_ini_secer()"
+=======
+              "duration": 4793000000,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "kullanici search butonuna tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.EndToEnd_Stepdefinitions.kullaniciSearchButonunaTiklar()"
+>>>>>>> main
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "status": "skipped"
+            },
+            "line": 49,
+            "name": "kullanici Create Date secer",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_19_Stepdefinitions.kullanici_create_date_secer()"
+=======
+              "duration": 8995000000,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "kullanici diger zorunlu alanlari doldurur",
+            "match": {
+              "location": "gmibank.stepdefinitions.EndToEnd_Stepdefinitions.kullaniciDigerZorunluAlanlariDoldurur()"
+>>>>>>> main
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "status": "skipped"
+            },
+            "line": 50,
+            "name": "kullanici Close Date secer",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_19_Stepdefinitions.kullanici_close_date_secer()"
+=======
+              "duration": 3026000000,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "kullanici Account dropdown dan iki hesap secer",
+            "match": {
+              "location": "gmibank.stepdefinitions.EndToEnd_Stepdefinitions.kullaniciAccountDropdownDanIkiHesapSecer()"
+>>>>>>> main
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
               "status": "skipped"
             },
             "line": 51,
             "name": "kullanici save butonuna tiklar",
             "match": {
               "location": "gmibank.stepdefinitions.US_19_Stepdefinitions.kullanici_save_butonuna_tiklar()"
+=======
+              "duration": 7747000000,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "kullanici save customer butonuna tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.EndToEnd_Stepdefinitions.kullaniciSaveCustomerButonunaTiklar()"
+>>>>>>> main
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
               "status": "skipped"
             },
             "line": 52,
@@ -776,15 +1437,31 @@
               "location": "gmibank.stepdefinitions.US_19_Stepdefinitions.kullaniciHataMesajiniGoruntuler()"
             },
             "keyword": "Then "
+=======
+              "duration": 4338000000,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "kullanici sayfayi kapatir",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_04_Stepdefinitions.kullaniciSayfayiKapatir()"
+            },
+            "keyword": "And "
+>>>>>>> main
           }
         ],
         "tags": [
           {
+<<<<<<< HEAD
             "name": "@newAccount"
+=======
+            "name": "@e2e"
+>>>>>>> main
           }
         ]
       },
       {
+<<<<<<< HEAD
         "line": 4,
         "name": "",
         "description": "",
@@ -797,6 +1474,43 @@
               "status": "passed"
             },
             "line": 5,
+=======
+        "start_timestamp": "2021-03-04T21:56:06.203Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "gmibank.stepdefinitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 77,
+        "name": "Customer hesabina giris",
+        "description": "",
+        "id": "us-01-register;customer-hesabina-giris",
+        "after": [
+          {
+            "result": {
+              "duration": 6700000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "gmibank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13611000000,
+              "status": "passed"
+            },
+            "line": 78,
+>>>>>>> main
             "name": "kulllanici anasayfaya gider",
             "match": {
               "location": "gmibank.stepdefinitions.US_04_Stepdefinitions.kulllanici_anasayfaya_gider()"
@@ -805,10 +1519,17 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 228000000,
               "status": "passed"
             },
             "line": 6,
+=======
+              "duration": 2236000000,
+              "status": "passed"
+            },
+            "line": 79,
+>>>>>>> main
             "name": "kullanici sag ustteki simgeye tiklar",
             "match": {
               "location": "gmibank.stepdefinitions.US_04_Stepdefinitions.kullanici_sag_ustteki_simgeye_tiklar()"
@@ -817,10 +1538,17 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 82000000,
               "status": "passed"
             },
             "line": 7,
+=======
+              "duration": 2526000000,
+              "status": "passed"
+            },
+            "line": 80,
+>>>>>>> main
             "name": "kullanici Sign In tiklar",
             "match": {
               "location": "gmibank.stepdefinitions.US_04_Stepdefinitions.kullanici_sign_in_tiklar()"
@@ -829,6 +1557,7 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 33122000000,
               "status": "passed"
             },
@@ -838,6 +1567,17 @@
               "arguments": [
                 {
                   "val": "\"Manager31\"",
+=======
+              "duration": 2291000000,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "kullanici username olarak \"werty020\" girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"werty020\"",
+>>>>>>> main
                   "offset": 26
                 }
               ],
@@ -847,6 +1587,7 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 33255000000,
               "status": "passed"
             },
@@ -856,6 +1597,17 @@
               "arguments": [
                 {
                   "val": "\"Manager31.\"",
+=======
+              "duration": 2521000000,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "kullanici password olarak \"werty55.\" girer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"werty55.\"",
+>>>>>>> main
                   "offset": 26
                 }
               ],
@@ -865,16 +1617,24 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@class\u003d\u0027btn btn-primary\u0027]\"}\n  (Session info: chrome\u003d88.0.4324.190)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-52DN1VUN\u0027, ip: \u0027192.168.1.80\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_251\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\\Users\\GEBRUI~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:61066}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 16d77d170fe67295f412ffe64b222f4f\n*** Element info: {Using\u003dxpath, value\u003d//*[@class\u003d\u0027btn btn-primary\u0027]}\r\n\tat sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy18.click(Unknown Source)\r\n\tat gmibank.stepdefinitions.US_04_Stepdefinitions.kullanici_sign_in_butonuna_tiklar(US_04_Stepdefinitions.java:48)\r\n\tat ✽.kullanici Sign In butonuna tiklar(file:///C:/Users/Gebruiker/IdeaProjects/gmiBankProject_Team31/src/test/resources/features/US_19.feature:10)\r\n",
               "duration": 10068000000,
               "status": "failed"
             },
             "line": 10,
+=======
+              "duration": 2197000000,
+              "status": "passed"
+            },
+            "line": 83,
+>>>>>>> main
             "name": "kullanici Sign In butonuna tiklar",
             "match": {
               "location": "gmibank.stepdefinitions.US_04_Stepdefinitions.kullanici_sign_in_butonuna_tiklar()"
             },
             "keyword": "And "
+<<<<<<< HEAD
           }
         ]
       },
@@ -921,10 +1681,44 @@
               "status": "skipped"
             },
             "line": 56,
+=======
+          },
+          {
+            "result": {
+              "duration": 2672000000,
+              "status": "passed"
+            },
+            "line": 84,
             "name": "kullanici My Operations a tiklar",
             "match": {
               "location": "gmibank.stepdefinitions.US_19_Stepdefinitions.kullanici_my_operations_a_tiklar()"
             },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 322000000,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "kullanici My Accounts\u0027a tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_15_Stepdefinitions.kullaniciMyAccountsATiklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2162000000,
+              "status": "passed"
+            },
+            "line": 86,
+>>>>>>> main
+            "name": "kullanici My Operations a tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_19_Stepdefinitions.kullanici_my_operations_a_tiklar()"
+            },
+<<<<<<< HEAD
             "keyword": "When "
           },
           {
@@ -935,99 +1729,193 @@
             "name": "kullanici Manage Accounts a tiklar",
             "match": {
               "location": "gmibank.stepdefinitions.US_19_Stepdefinitions.kullanici_manage_accounts_a_tiklar()"
+=======
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 512000000,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "kullanici Transfer Money\u0027e tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_16_Stepdefinitions.kullaniciTransferMoneyETiklar()"
+>>>>>>> main
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
               "status": "skipped"
             },
             "line": 58,
             "name": "kullanici create a new account a tiklar",
             "match": {
               "location": "gmibank.stepdefinitions.US_19_Stepdefinitions.kullanici_create_a_new_account_a_tiklar()"
+=======
+              "duration": 1599000000,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "kullanici from dropDown\u0027indan bir hesap secer",
+            "match": {
+              "location": "gmibank.stepdefinitions.EndToEnd_Stepdefinitions.kullaniciFromDropDownIndanBirHesapSecer()"
+>>>>>>> main
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
               "status": "skipped"
             },
             "line": 59,
             "name": "kullanici Description textbox ina desciription girer",
             "match": {
               "location": "gmibank.stepdefinitions.US_19_Stepdefinitions.kullanici_description_textbox_ina_desciription_girer()"
+=======
+              "duration": 1464000000,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "kullanici to dropDown\u0027indan bir hesap secer",
+            "match": {
+              "location": "gmibank.stepdefinitions.EndToEnd_Stepdefinitions.kullaniciToDropDownIndanBirHesapSecer()"
+>>>>>>> main
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
               "status": "skipped"
             },
             "line": 60,
             "name": "kullanici Balance textbox ina bir balance girer",
             "match": {
               "location": "gmibank.stepdefinitions.US_19_Stepdefinitions.kullanici_balance_textbox_ina_bir_balance_girer()"
+=======
+              "duration": 420000000,
+              "status": "passed"
+            },
+            "line": 90,
+            "name": "Balance kismina gecerli bir para miktarini yazar",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_16_Stepdefinitions.balanceKisminaGecerliBirParaMiktariniYazar()"
+>>>>>>> main
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
               "status": "skipped"
             },
             "line": 61,
             "name": "kullanici Account Type ini secer",
             "match": {
               "location": "gmibank.stepdefinitions.US_19_Stepdefinitions.kullanici_account_type_ini_secer()"
+=======
+              "duration": 549000000,
+              "status": "passed"
+            },
+            "line": 91,
+            "name": "Description kismina aciklama yazar",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_16_Stepdefinitions.descriptionKisminaAciklamaYazar()"
+>>>>>>> main
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
               "status": "skipped"
             },
             "line": 62,
             "name": "kullanici Account Status Type ini secer",
             "match": {
               "location": "gmibank.stepdefinitions.US_19_Stepdefinitions.kullanici_account_status_type_ini_secer()"
+=======
+              "duration": 841000000,
+              "status": "passed"
+            },
+            "line": 92,
+            "name": "Make Transfer butonuna tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_16_Stepdefinitions.makeTransferButonunaTiklar()"
+>>>>>>> main
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
               "status": "skipped"
             },
             "line": 63,
             "name": "kullanici Create Date secer",
             "match": {
               "location": "gmibank.stepdefinitions.US_19_Stepdefinitions.kullanici_create_date_secer()"
+=======
+              "duration": 2308000000,
+              "status": "passed"
+            },
+            "line": 93,
+            "name": "kullanici My Operations a tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_19_Stepdefinitions.kullanici_my_operations_a_tiklar()"
+>>>>>>> main
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
               "status": "skipped"
             },
             "line": 64,
             "name": "kullanici gecersiz Close Date secer",
             "match": {
               "location": "gmibank.stepdefinitions.US_19_Stepdefinitions.kullaniciGecersizCloseDateSecer()"
+=======
+              "duration": 441000000,
+              "status": "passed"
+            },
+            "line": 94,
+            "name": "kullanici My Accounts\u0027a tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_15_Stepdefinitions.kullaniciMyAccountsATiklar()"
+>>>>>>> main
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
               "status": "skipped"
             },
             "line": 65,
             "name": "kullanici save butonuna tiklar",
             "match": {
               "location": "gmibank.stepdefinitions.US_19_Stepdefinitions.kullanici_save_butonuna_tiklar()"
+=======
+              "duration": 3321000000,
+              "status": "passed"
+            },
+            "line": 95,
+            "name": "kullanici bir View Transaction butonuna tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_15_Stepdefinitions.kullaniciBirViewTransactionButonunaTiklar()"
+>>>>>>> main
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
               "status": "skipped"
             },
             "line": 66,
@@ -1036,15 +1924,55 @@
               "location": "gmibank.stepdefinitions.US_19_Stepdefinitions.kullaniciHataMesajiniGoruntuler()"
             },
             "keyword": "Then "
+=======
+              "duration": 2813000000,
+              "status": "passed"
+            },
+            "line": 96,
+            "name": "kullanici w hesabindan cikis yapar",
+            "match": {
+              "location": "gmibank.stepdefinitions.EndToEnd_Stepdefinitions.kullaniciWHesabindanCikisYapar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1504000000,
+              "status": "passed"
+            },
+            "line": 97,
+            "name": "kullanici home page tiklar",
+            "match": {
+              "location": "gmibank.stepdefinitions.EndToEnd_Stepdefinitions.kullaniciHomePageTiklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2024000000,
+              "status": "passed"
+            },
+            "line": 98,
+            "name": "kullanici sayfayi kapatir",
+            "match": {
+              "location": "gmibank.stepdefinitions.US_04_Stepdefinitions.kullaniciSayfayiKapatir()"
+            },
+            "keyword": "And "
+>>>>>>> main
           }
         ],
         "tags": [
           {
+<<<<<<< HEAD
             "name": "@newAccount"
+=======
+            "name": "@e2e"
+>>>>>>> main
           }
         ]
       }
     ],
+<<<<<<< HEAD
     "name": "US_19 create a new account (manager)",
     "description": "",
     "id": "us-19-create-a-new-account-(manager)",
@@ -1060,5 +1988,13 @@
         }
       }
     ]
+=======
+    "name": "US_01 Register",
+    "description": "",
+    "id": "us-01-register",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/EndToEnd.feature",
+    "tags": []
+>>>>>>> main
   }
 ]

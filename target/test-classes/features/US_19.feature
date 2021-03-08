@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 @newAccount
+=======
+>>>>>>> main
 Feature: US_19 create a new account (manager)
 
   Background:
