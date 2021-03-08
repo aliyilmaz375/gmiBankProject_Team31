@@ -17,7 +17,7 @@ public class US_19_Stepdefinitions {
     Actions actions = new Actions(Driver.getDriver());
     @When("kullanici My Operations a tiklar")
     public void kullanici_my_operations_a_tiklar() {
-        ReusableMethods.waitFor(1);
+        ReusableMethods.waitFor(2);
         us19Page.myOperations.click();
     }
     @When("kullanici Manage Accounts a tiklar")
@@ -27,6 +27,9 @@ public class US_19_Stepdefinitions {
     }
     @When("kullanici create a new account a tiklar")
     public void kullanici_create_a_new_account_a_tiklar() throws InterruptedException {
+
+        ReusableMethods.waitFor(1);
+        actions.sendKeys(Keys.UP).perform();
         ReusableMethods.waitFor(2);
         us19Page.createNewAccount.click();
     }
@@ -66,6 +69,8 @@ public class US_19_Stepdefinitions {
     @When("kullanici save butonuna tiklar")
     public void kullanici_save_butonuna_tiklar() {
         ReusableMethods.waitFor(1);
+        actions.sendKeys(Keys.PAGE_DOWN).perform();
+        ReusableMethods.waitFor(2);
         us19Page.saveButton.click();
     }
     @And("kullanici Balance textbox bos birakilir")

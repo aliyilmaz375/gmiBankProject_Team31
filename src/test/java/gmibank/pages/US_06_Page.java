@@ -5,9 +5,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class US_006_Page {
+public class US_06_Page {
 
-    public US_006_Page(){
+    public US_06_Page(){
         PageFactory.initElements(Driver.getDriver(),this);
     }
 
@@ -32,9 +32,10 @@ public class US_006_Page {
     @FindBy(xpath = "//*[text()='Save']")
     public WebElement SaveBtn;
 
-    @FindBy(xpath = "//strong[2]")
-    public  WebElement SaveMesaji;
+    @FindBy(xpath = "//div[@class='Toastify__toast-body']")
+    public WebElement basariliMesaji;
 
-    @FindBy(className = "invalid-feedback")
-    public WebElement hataMesaji;
+
+
+
 }
