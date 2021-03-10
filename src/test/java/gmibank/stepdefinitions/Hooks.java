@@ -10,7 +10,7 @@ import org.openqa.selenium.TakesScreenshot;
 
 public class Hooks {
 
-
+/*
     @Before // her scenario'dan once calisir,junitteki before,TestNG'deki beforeMethod gibi
     public void setup(){
 
@@ -25,5 +25,5 @@ public class Hooks {
         }
         // Driver.closeDriver();
     }
-
+*/
 }
