@@ -1,6 +1,6 @@
 Feature:gmiBank Registration
 
-  @wip
+
   Scenario: TC01 gmiBank Registration  with valid credentials
 
 

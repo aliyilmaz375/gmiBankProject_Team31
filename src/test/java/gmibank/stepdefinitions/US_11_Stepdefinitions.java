@@ -60,7 +60,7 @@ public class US_11_Stepdefinitions {
     @And("kullanici create a new customer i tiklar")
     public void kullaniciCreateANewCustomerITiklar() {
 
-        ReusableMethods.waitFor(1);
+        ReusableMethods.waitFor(2);
         actions.sendKeys(Keys.UP).perform();
         ReusableMethods.waitFor(2);
         us11Page.createNewCustomer.click();
