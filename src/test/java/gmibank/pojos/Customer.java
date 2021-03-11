@@ -1,6 +1,5 @@
 package gmibank.pojos;
 
-
 public class Customer {
 
     private  int id;
