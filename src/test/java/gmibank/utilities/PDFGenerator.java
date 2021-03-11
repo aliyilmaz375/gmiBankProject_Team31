@@ -35,7 +35,7 @@ public class PDFGenerator {
 
             document.add(new Paragraph(pdf_title));
 
-            PdfPTable table = new PdfPTable(5);
+            PdfPTable table = new PdfPTable(headers.size());
 
             table.setWidthPercentage(110);
             table.setSpacingBefore(12);
@@ -226,6 +226,7 @@ public class PDFGenerator {
     }
 
     public static void main(String[] args) {
+        pdfGenerator("kullanici bilgiler","kullanici_bilgileri.pdf");
 
         List <Customer> list = new ArrayList<>();
         Country country = new Country();
