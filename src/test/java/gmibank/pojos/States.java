@@ -32,13 +32,13 @@ public class States {
                 '}';
 
     }
-
+/*
     public States(int id, String name, String tpcountry) {
         this.id = id;
         this.name = name;
         this.tpcountry = tpcountry;
     }
-
+*/
     public int getId() {
         return id;
     }

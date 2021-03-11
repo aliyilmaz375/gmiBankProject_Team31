@@ -1,3 +1,4 @@
+@newAccount
 Feature: US_19 create a new account (manager)
 
   Background:
