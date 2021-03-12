@@ -17,6 +17,7 @@
       <scope value="GLOBAL" />
       <destination value="FILE" />
       <format value="EXCEL" />
+      <charset value="windows-1254" />
       <charset value="windows-1252" />
     </export-instructions>
   </component>
@@ -24,6 +25,7 @@
     <autoscroll-to-editor value="false" />
     <autoscroll-from-editor value="true" />
     <show-object-properties value="true" />
+    <loaded-nodes />
     <loaded-nodes>
       <connection connection-id="0b5b51f4-696b-4432-946c-15ade4454b79">
         <schema name="pg_catalog" object-types="function, table, view" />
@@ -32,15 +34,15 @@
     </loaded-nodes>
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
-    <connection id="0b5b51f4-696b-4432-946c-15ade4454b79">
-      <console name="Connection" type="STANDARD" schema="public" session="Main"><![CDATA[select * from tp_customer]]></console>
+    <connection id="b77b8b2d-df0b-4aa6-90e7-8e191a5dfbaf">
+      <console name="Connection" type="STANDARD" schema="public" session="Main">select * from pg_catalog.pg_tables</console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
     <open-files />
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
-    <connection id="0b5b51f4-696b-4432-946c-15ade4454b79" />
+    <connection id="b77b8b2d-df0b-4aa6-90e7-8e191a5dfbaf" />
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />
@@ -68,7 +70,7 @@
   </component>
   <component name="DBNavigator.Project.Settings">
     <connections>
-      <connection id="0b5b51f4-696b-4432-946c-15ade4454b79" active="true">
+      <connection id="b77b8b2d-df0b-4aa6-90e7-8e191a5dfbaf" active="true">
         <database>
           <name value="Connection" />
           <description value="" />
@@ -81,7 +83,7 @@
           <url-type value="DATABASE" />
           <host value="157.230.48.97" />
           <port value="5432" />
-          <database value="postgres" />
+          <database value="gmibank_db" />
           <type value="USER_PASSWORD" />
           <user value="techprodb_user" />
           <deprecated-pwd value="VGVjaHByb19AMTI2" />
