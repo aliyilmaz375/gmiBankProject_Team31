@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<<<<<<< HEAD
+<testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="279.058">
+<testcase classname="US_19 create a new account (manager)" name="TC_001 Pozitif Test" time="44.955">
+<system-out><![CDATA[Given kulllanici anasayfaya gider...........................................passed
+And kullanici sag ustteki simgeye tiklar....................................passed
+And kullanici Sign In tiklar................................................passed
+And kullanici username olarak "Manager31" girer.............................passed
+And kullanici password olarak "Manager31." girer............................passed
+=======
 <testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="333.275">
 <testcase classname="US_01 Register" name="TC_001 register pozitif test" time="273.153">
 <system-out><![CDATA[Given kulllanici anasayfaya gider...........................................passed
@@ -30,10 +39,14 @@ And kullanici sag ustteki simgeye tiklar....................................pass
 And kullanici Sign In tiklar................................................passed
 And kullanici username olarak "Employee31" girer............................passed
 And kullanici password olarak "Employee31." girer...........................passed
+>>>>>>> main
 And kullanici Sign In butonuna tiklar.......................................passed
 When kullanici My Operations a tiklar.......................................passed
 And kullanici Manage Accounts a tiklar......................................passed
 And kullanici create a new account a tiklar.................................passed
+<<<<<<< HEAD
+And kullanici Description textbox ina desciription girer....................passed
+=======
 And kullanici Description textbox ina birinci hesap icin description girer..passed
 And kullanici Balance textbox ina bir balance girer.........................passed
 And kullanici Account Type ini secer........................................passed
@@ -43,12 +56,166 @@ And kullanici Close Date secer..............................................pass
 And kullanici save butonuna tiklar..........................................passed
 And kullanici create a new account a tiklar.................................passed
 And kullanici Description textbox ina ikinci hesap icin description girer...passed
+>>>>>>> main
 And kullanici Balance textbox ina bir balance girer.........................passed
 And kullanici Account Type ini secer........................................passed
 And kullanici Account Status Type ini secer.................................passed
 And kullanici Create Date secer.............................................passed
 And kullanici Close Date secer..............................................passed
 And kullanici save butonuna tiklar..........................................passed
+<<<<<<< HEAD
+Then kullanici hesap olustugunu dogrular....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US_19 create a new account (manager)" name="TC_002 Negatif Test" time="78.141">
+<failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@class='btn btn-primary']&quot;}&#10;  (Session info: chrome=88.0.4324.190)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-52DN1VUN', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\GEBRUI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61066}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 16d77d170fe67295f412ffe64b222f4f&#10;*** Element info: {Using=xpath, value=//*[@class='btn btn-primary']}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given kulllanici anasayfaya gider...........................................passed
+And kullanici sag ustteki simgeye tiklar....................................passed
+And kullanici Sign In tiklar................................................passed
+And kullanici username olarak "Manager31" girer.............................passed
+And kullanici password olarak "Manager31." girer............................passed
+And kullanici Sign In butonuna tiklar.......................................failed
+When kullanici My Operations a tiklar.......................................skipped
+And kullanici Manage Accounts a tiklar......................................skipped
+And kullanici create a new account a tiklar.................................skipped
+And kullanici Description textbox ina desciription girer....................skipped
+And kullanici Balance textbox bos birakilir.................................skipped
+And kullanici Account Type ini secer........................................skipped
+And kullanici Account Status Type ini secer.................................skipped
+And kullanici Create Date secer.............................................skipped
+And kullanici Close Date secer..............................................skipped
+And kullanici save butonuna tiklar..........................................skipped
+Then kullanici hata mesajini goruntuler.....................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='btn btn-primary']"}
+  (Session info: chrome=88.0.4324.190)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-52DN1VUN', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\GEBRUI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61066}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 16d77d170fe67295f412ffe64b222f4f
+*** Element info: {Using=xpath, value=//*[@class='btn btn-primary']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy18.click(Unknown Source)
+	at gmibank.stepdefinitions.US_04_Stepdefinitions.kullanici_sign_in_butonuna_tiklar(US_04_Stepdefinitions.java:48)
+	at ✽.kullanici Sign In butonuna tiklar(file:///C:/Users/Gebruiker/IdeaProjects/gmiBankProject_Team31/src/test/resources/features/US_19.feature:10)
+]]></failure>
+</testcase>
+<testcase classname="US_19 create a new account (manager)" name="TC_003 Negatif Test" time="77.8">
+<failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@class='btn btn-primary']&quot;}&#10;  (Session info: chrome=88.0.4324.190)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-52DN1VUN', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\GEBRUI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61066}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 16d77d170fe67295f412ffe64b222f4f&#10;*** Element info: {Using=xpath, value=//*[@class='btn btn-primary']}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given kulllanici anasayfaya gider...........................................passed
+And kullanici sag ustteki simgeye tiklar....................................passed
+And kullanici Sign In tiklar................................................passed
+And kullanici username olarak "Manager31" girer.............................passed
+And kullanici password olarak "Manager31." girer............................passed
+And kullanici Sign In butonuna tiklar.......................................failed
+When kullanici My Operations a tiklar.......................................skipped
+And kullanici Manage Accounts a tiklar......................................skipped
+And kullanici create a new account a tiklar.................................skipped
+And kullanici Description textbox bos birakilir.............................skipped
+And kullanici Balance textbox ina bir balance girer.........................skipped
+And kullanici Account Type ini secer........................................skipped
+And kullanici Account Status Type ini secer.................................skipped
+And kullanici Create Date secer.............................................skipped
+And kullanici Close Date secer..............................................skipped
+And kullanici save butonuna tiklar..........................................skipped
+Then kullanici hata mesajini goruntuler.....................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='btn btn-primary']"}
+  (Session info: chrome=88.0.4324.190)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-52DN1VUN', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\GEBRUI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61066}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 16d77d170fe67295f412ffe64b222f4f
+*** Element info: {Using=xpath, value=//*[@class='btn btn-primary']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy18.click(Unknown Source)
+	at gmibank.stepdefinitions.US_04_Stepdefinitions.kullanici_sign_in_butonuna_tiklar(US_04_Stepdefinitions.java:48)
+	at ✽.kullanici Sign In butonuna tiklar(file:///C:/Users/Gebruiker/IdeaProjects/gmiBankProject_Team31/src/test/resources/features/US_19.feature:10)
+]]></failure>
+</testcase>
+<testcase classname="US_19 create a new account (manager)" name="TC_004 Negatif Test" time="77.755">
+<failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@class='btn btn-primary']&quot;}&#10;  (Session info: chrome=88.0.4324.190)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-52DN1VUN', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\GEBRUI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61066}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 16d77d170fe67295f412ffe64b222f4f&#10;*** Element info: {Using=xpath, value=//*[@class='btn btn-primary']}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given kulllanici anasayfaya gider...........................................passed
+And kullanici sag ustteki simgeye tiklar....................................passed
+And kullanici Sign In tiklar................................................passed
+And kullanici username olarak "Manager31" girer.............................passed
+And kullanici password olarak "Manager31." girer............................passed
+And kullanici Sign In butonuna tiklar.......................................failed
+When kullanici My Operations a tiklar.......................................skipped
+And kullanici Manage Accounts a tiklar......................................skipped
+And kullanici create a new account a tiklar.................................skipped
+And kullanici Description textbox ina desciription girer....................skipped
+And kullanici Balance textbox ina bir balance girer.........................skipped
+And kullanici Account Type ini secer........................................skipped
+And kullanici Account Status Type ini secer.................................skipped
+And kullanici Create Date secer.............................................skipped
+And kullanici gecersiz Close Date secer.....................................skipped
+And kullanici save butonuna tiklar..........................................skipped
+Then kullanici hata mesajini goruntuler.....................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='btn btn-primary']"}
+  (Session info: chrome=88.0.4324.190)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-52DN1VUN', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\GEBRUI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61066}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 16d77d170fe67295f412ffe64b222f4f
+*** Element info: {Using=xpath, value=//*[@class='btn btn-primary']}
+	at sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy18.click(Unknown Source)
+	at gmibank.stepdefinitions.US_04_Stepdefinitions.kullanici_sign_in_butonuna_tiklar(US_04_Stepdefinitions.java:48)
+	at ✽.kullanici Sign In butonuna tiklar(file:///C:/Users/Gebruiker/IdeaProjects/gmiBankProject_Team31/src/test/resources/features/US_19.feature:10)
+]]></failure>
+=======
 And kullanici My Operations a tiklar........................................passed
 And kullanici Manage Customer i tiklar......................................passed
 And kullanici create a new customer i tiklar................................passed
@@ -83,5 +250,6 @@ And kullanici w hesabindan cikis yapar......................................pass
 And kullanici home page tiklar..............................................passed
 And kullanici sayfayi kapatir...............................................passed
 ]]></system-out>
+>>>>>>> main
 </testcase>
 </testsuite>

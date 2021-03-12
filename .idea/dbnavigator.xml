@@ -17,7 +17,11 @@
       <scope value="GLOBAL" />
       <destination value="FILE" />
       <format value="EXCEL" />
+<<<<<<< HEAD
       <charset value="windows-1254" />
+=======
+      <charset value="windows-1252" />
+>>>>>>> main
     </export-instructions>
   </component>
   <component name="DBNavigator.Project.DatabaseBrowserManager">
@@ -25,21 +29,36 @@
     <autoscroll-from-editor value="true" />
     <show-object-properties value="true" />
     <loaded-nodes>
+<<<<<<< HEAD
       <connection connection-id="b77b8b2d-df0b-4aa6-90e7-8e191a5dfbaf">
         <schema name="pg_catalog" object-types="function, view, table" />
+=======
+      <connection connection-id="0b5b51f4-696b-4432-946c-15ade4454b79">
+        <schema name="pg_catalog" object-types="function, table, view" />
+        <schema name="public" object-types="function, table, view" />
+>>>>>>> main
       </connection>
     </loaded-nodes>
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
+<<<<<<< HEAD
     <connection id="b77b8b2d-df0b-4aa6-90e7-8e191a5dfbaf">
       <console name="Connection" type="STANDARD" schema="public" session="Main"><![CDATA[select * from pg_catalog.pg_tables]]></console>
+=======
+    <connection id="0b5b51f4-696b-4432-946c-15ade4454b79">
+      <console name="Connection" type="STANDARD" schema="public" session="Main"><![CDATA[select * from tp_customer]]></console>
+>>>>>>> main
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
     <open-files />
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
+<<<<<<< HEAD
     <connection id="b77b8b2d-df0b-4aa6-90e7-8e191a5dfbaf" />
+=======
+    <connection id="0b5b51f4-696b-4432-946c-15ade4454b79" />
+>>>>>>> main
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />
@@ -67,7 +86,11 @@
   </component>
   <component name="DBNavigator.Project.Settings">
     <connections>
+<<<<<<< HEAD
       <connection id="b77b8b2d-df0b-4aa6-90e7-8e191a5dfbaf" active="true">
+=======
+      <connection id="0b5b51f4-696b-4432-946c-15ade4454b79" active="true">
+>>>>>>> main
         <database>
           <name value="Connection" />
           <description value="" />
@@ -80,7 +103,11 @@
           <url-type value="DATABASE" />
           <host value="157.230.48.97" />
           <port value="5432" />
+<<<<<<< HEAD
           <database value="gmibank_db" />
+=======
+          <database value="postgres" />
+>>>>>>> main
           <type value="USER_PASSWORD" />
           <user value="techprodb_user" />
           <deprecated-pwd value="VGVjaHByb19AMTI2" />
