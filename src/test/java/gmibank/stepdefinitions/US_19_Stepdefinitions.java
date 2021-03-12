@@ -4,6 +4,7 @@ import gmibank.pages.US_19_Page;
 import gmibank.utilities.Driver;
 import gmibank.utilities.ReusableMethods;
 import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
@@ -11,10 +12,13 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
-public class US_19_Stepdefinitions {
+public class
+
+US_19_Stepdefinitions {
 
     US_19_Page us19Page = new US_19_Page();
     Actions actions = new Actions(Driver.getDriver());
+
     @When("kullanici My Operations a tiklar")
     public void kullanici_my_operations_a_tiklar() {
         ReusableMethods.waitFor(2);

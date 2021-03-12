@@ -112,9 +112,9 @@ public class EndToEnd_Stepdefinitions {
     @And("kullanici son kayittaki Edit Butonuna tiklar")
     public void kullaniciSonKayittakiEditButonunaTiklar() {
 
-       ReusableMethods.waitFor(4);
+       ReusableMethods.waitFor(5);
        actions.sendKeys(Keys.PAGE_UP).perform();
-        ReusableMethods.waitFor(4);
+        ReusableMethods.waitFor(5);
         endToEndPage.aaaaa.click();
     }
 

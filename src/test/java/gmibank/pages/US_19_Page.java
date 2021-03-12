@@ -48,12 +48,4 @@ public class US_19_Page {
     public WebElement hataMesaji;
 
 
-
-
-
-
-
-
-
-
 }
