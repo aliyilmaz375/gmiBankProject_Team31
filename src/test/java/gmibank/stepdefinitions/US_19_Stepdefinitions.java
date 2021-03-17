@@ -21,7 +21,7 @@ US_19_Stepdefinitions {
 
     @When("kullanici My Operations a tiklar")
     public void kullanici_my_operations_a_tiklar() {
-        ReusableMethods.waitFor(2);
+        ReusableMethods.waitFor(1);
         us19Page.myOperations.click();
     }
     @When("kullanici Manage Accounts a tiklar")
@@ -34,12 +34,12 @@ US_19_Stepdefinitions {
 
         ReusableMethods.waitFor(1);
         actions.sendKeys(Keys.UP).perform();
-        ReusableMethods.waitFor(2);
-        us19Page.createNewAccount.click();
+        ReusableMethods.waitFor(1);
+        Driver.waitAndClick(us19Page.createNewAccount, 2);
     }
     @When("kullanici Description textbox ina desciription girer")
     public void kullanici_description_textbox_ina_desciription_girer() throws InterruptedException {
-        ReusableMethods.waitFor(2);
+        ReusableMethods.waitFor(1);
         us19Page.description.sendKeys("Alex vadeli hesap");
     }
     @When("kullanici Balance textbox ina bir balance girer")
@@ -48,25 +48,25 @@ US_19_Stepdefinitions {
     }
     @When("kullanici Account Type ini secer")
     public void kullanici_account_type_ini_secer() throws InterruptedException {
-        ReusableMethods.waitFor(2);
+        ReusableMethods.waitFor(1);
         Select select = new Select(us19Page.accountTypeDropdown);
         select.selectByIndex(1);
     }
     @When("kullanici Account Status Type ini secer")
     public void kullanici_account_status_type_ini_secer() throws InterruptedException {
-        ReusableMethods.waitFor(2);
+        ReusableMethods.waitFor(1);
         Select select = new Select(us19Page.accountStatusType);
         select.selectByIndex(0);
     }
     @When("kullanici Create Date secer")
     public void kullanici_create_date_secer() throws InterruptedException {
-        ReusableMethods.waitFor(2);
+        ReusableMethods.waitFor(1);
         us19Page.createAccountDate.sendKeys("02/27/2021"+ Keys.TAB);
         us19Page.createAccountDate.sendKeys("12:59");
     }
     @When("kullanici Close Date secer")
     public void kullanici_close_date_secer() throws InterruptedException {
-        ReusableMethods.waitFor(2);
+        ReusableMethods.waitFor(1);
         us19Page.closeDate.sendKeys("02/27/2023"+ Keys.TAB);
         us19Page.closeDate.sendKeys("00:44");
     }

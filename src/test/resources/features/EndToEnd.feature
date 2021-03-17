@@ -6,13 +6,13 @@ Feature: US_01 Register
     Given kulllanici anasayfaya gider
     And kullanici sag ustteki simgeye tiklar
     And kullanici Register a tiklar
-    And kullanici SSN textboxina "080-80-8087" numarasini girer
+    And kullanici SSN textboxina "080-80-8089" numarasini girer
     And kullanici First Name textboxina "werty" ismini girer
     And kullanici Last Name textboxina "werty" soyismini girer
     And kullanici Address textboxina "werty"  adresini girer
     And kullanici Mobile Phone Number textboxina "123-456-7890" cep telefonu numarasini girer
-    And kullanici Username textboxina  "werty020" kullanici adini girer
-    And kullanici Email textboxina "werty020@gmail.com" mail adresini girer
+    And kullanici Username textboxina  "werty021" kullanici adini girer
+    And kullanici Email textboxina "werty021@gmail.com" mail adresini girer
     And kullanici New password textboxina "werty55." sifresini girer
     And kullanici New password confirmation textboxina "werty55." sifresini girer
     And kullanici Register butonuna tiklar
@@ -39,7 +39,7 @@ Feature: US_01 Register
     And kullanici password olarak "Employee31." girer
     And kullanici Sign In butonuna tiklar
 
-    # Scenario: 1 nci hesabi olusturma
+    # Scenario: 1 inci hesabi olusturma
     When kullanici My Operations a tiklar
     And kullanici Manage Accounts a tiklar
     And kullanici create a new account a tiklar
@@ -62,11 +62,11 @@ Feature: US_01 Register
     And kullanici save butonuna tiklar
 
 
-    #employee customer icin hesap ekleme
+    #employee customer icin hesap tanimlama
     And kullanici My Operations a tiklar
     And kullanici Manage Customer i tiklar
     And kullanici create a new customer i tiklar
-    And Kullanici SSN search textboxina "080-80-8087" numarasini girer
+    And Kullanici SSN search textboxina "080-80-8089" numarasini girer
     And kullanici search butonuna tiklar
     And kullanici diger zorunlu alanlari doldurur
     And kullanici Account dropdown dan iki hesap secer
@@ -78,9 +78,9 @@ Feature: US_01 Register
     Given kulllanici anasayfaya gider
     And kullanici sag ustteki simgeye tiklar
     And kullanici Sign In tiklar
-    And kullanici username olarak "werty020" girer
+    And kullanici username olarak "werty021" girer
     And kullanici password olarak "werty55." girer
-   And kullanici Sign In butonuna tiklar
+    And kullanici Sign In butonuna tiklar
     And kullanici My Operations a tiklar
     And kullanici My Accounts'a tiklar
     And kullanici My Operations a tiklar

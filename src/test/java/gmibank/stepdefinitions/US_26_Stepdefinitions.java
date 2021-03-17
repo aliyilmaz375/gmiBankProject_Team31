@@ -27,7 +27,7 @@ public class US_26_Stepdefinitions {
 
         response = given().
                 headers("Authorization",
-                        "Bearer " + ConfigReader.getProperty("tokenya"),
+                        "Bearer " + ConfigReader.getProperty("token"),
                         "Content-Type",
                         ContentType.JSON,
                         "Accept",
@@ -62,7 +62,7 @@ public class US_26_Stepdefinitions {
 
         response = given()
                 .auth()
-                .oauth2(ConfigReader.getProperty("tokenya"))
+                .oauth2(ConfigReader.getProperty("token"))
                 .contentType(ContentType.JSON)
                 .when()
                 .body(countryPut)
@@ -74,7 +74,7 @@ public class US_26_Stepdefinitions {
                 .response();
         response.prettyPrint();
 
-        Assert.assertEquals("Ulke ismi degistirilemedi", countryPut.get("name"),"Hollanda31");
+        Assert.assertEquals("Ulke ismi degistirilemedi", countryPut.get("name"),"Hollanda");
 
 
 

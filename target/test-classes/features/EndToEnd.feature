@@ -39,7 +39,7 @@ Feature: US_01 Register
     And kullanici password olarak "Employee31." girer
     And kullanici Sign In butonuna tiklar
 
-    # Scenario: 1 nci hesabi olusturma
+    # Scenario: 1 inci hesabi olusturma
     When kullanici My Operations a tiklar
     And kullanici Manage Accounts a tiklar
     And kullanici create a new account a tiklar
@@ -62,7 +62,7 @@ Feature: US_01 Register
     And kullanici save butonuna tiklar
 
 
-    #employee customer icin hesap ekleme
+    #employee customer icin hesap tanimlama
     And kullanici My Operations a tiklar
     And kullanici Manage Customer i tiklar
     And kullanici create a new customer i tiklar
@@ -80,7 +80,7 @@ Feature: US_01 Register
     And kullanici Sign In tiklar
     And kullanici username olarak "werty020" girer
     And kullanici password olarak "werty55." girer
-   And kullanici Sign In butonuna tiklar
+    And kullanici Sign In butonuna tiklar
     And kullanici My Operations a tiklar
     And kullanici My Accounts'a tiklar
     And kullanici My Operations a tiklar
