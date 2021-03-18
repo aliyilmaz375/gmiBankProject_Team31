@@ -15,7 +15,7 @@ Feature: demo feature
 
     Examples: Update country
       |newname|id|
-      |Hollanda|90620|
+      |Hollanda|90650|
 
   #delete_country
   Scenario Outline: delete country
