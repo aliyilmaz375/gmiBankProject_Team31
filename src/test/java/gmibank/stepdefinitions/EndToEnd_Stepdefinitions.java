@@ -28,7 +28,7 @@ public class EndToEnd_Stepdefinitions {
     @Given("kullanici SSN textboxina {string} numarasini girer")
     public void kullanici_SSN_textboxina_numarasini_girer(String string) {
 
-        ReusableMethods.waitFor(2);
+        ReusableMethods.waitFor(1);
         endToEndPage.ssnTextbox.sendKeys(string);
     }
 
@@ -56,7 +56,7 @@ public class EndToEnd_Stepdefinitions {
 
     @Given("kullanici Mobile Phone Number textboxina {string} cep telefonu numarasini girer")
     public void kullanici_Mobile_Phone_Number_textboxina_cep_telefonu_numarasini_girer(String string) {
-        ReusableMethods.waitFor(2);
+        ReusableMethods.waitFor(1);
         endToEndPage.mobilePhoneTextbox.sendKeys(string);
     }
 
@@ -64,7 +64,7 @@ public class EndToEnd_Stepdefinitions {
     @Given("kullanici Username textboxina  {string} kullanici adini girer")
     public void kullanici_Username_textboxina_kullanici_adini_girer(String string) {
 
-        ReusableMethods.waitFor(2);
+        ReusableMethods.waitFor(1);
 
         endToEndPage.usernameTextbox.sendKeys(string);
         actions.sendKeys(Keys.PAGE_DOWN).perform();
@@ -112,9 +112,9 @@ public class EndToEnd_Stepdefinitions {
     @And("kullanici son kayittaki Edit Butonuna tiklar")
     public void kullaniciSonKayittakiEditButonunaTiklar() {
 
-       ReusableMethods.waitFor(5);
+       ReusableMethods.waitFor(2);
        actions.sendKeys(Keys.PAGE_UP).perform();
-        ReusableMethods.waitFor(5);
+        ReusableMethods.waitFor(2);
         endToEndPage.aaaaa.click();
     }
 
@@ -143,7 +143,7 @@ public class EndToEnd_Stepdefinitions {
     @And("Kullanici SSN search textboxina {string} numarasini girer")
     public void kullaniciSSNSearchTextboxinaNumarasiniGirer(String string) {
 
-        ReusableMethods.waitFor(2);
+        ReusableMethods.waitFor(1);
         endToEndPage.searchSSN.sendKeys(string);
 
     }
@@ -232,13 +232,13 @@ public class EndToEnd_Stepdefinitions {
     @And("kullanici Description textbox ina ikinci hesap icin description girer")
     public void kullaniciDescriptionTextboxInaIkinciHesapIcinDesciriptionGirer() {
 
-        Driver.waitAndSendText(endToEndPage.decriptionAccountTextBox,"hesap007",2);
+        Driver.waitAndSendText(endToEndPage.decriptionAccountTextBox,"hesap0015",2);
     }
 
     @And("kullanici Description textbox ina birinci hesap icin description girer")
     public void kullaniciDescriptionTextboxInaBirinciHesapIcinDescriptionGirer() {
 
-        Driver.waitAndSendText(endToEndPage.decriptionAccountTextBox,"hesap008",2);
+        Driver.waitAndSendText(endToEndPage.decriptionAccountTextBox,"hesap0014",2);
     }
 
     @And("kullanici Account dropdown dan iki hesap secer")
@@ -247,9 +247,9 @@ public class EndToEnd_Stepdefinitions {
         actions.sendKeys(Keys.PAGE_DOWN).perform();
         ReusableMethods.waitFor(2);
         Select select = new Select(endToEndPage.accountDropdown);
-        select.selectByVisibleText("hesap007");
+        select.selectByVisibleText("hesap0014");
         actions.keyDown(Keys.CONTROL).perform();
-        select.selectByVisibleText("hesap008");
+        select.selectByVisibleText("hesap0015");
     }
 
     @And("kullanici from dropDown'indan bir hesap secer")

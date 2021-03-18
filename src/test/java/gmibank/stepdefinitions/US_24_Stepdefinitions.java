@@ -16,7 +16,7 @@ import java.util.Map;
 
 import static io.restassured.RestAssured.given;
 
-public class US_24Stepdefinitions {
+public class US_24_Stepdefinitions {
 
     Response response;
     int createdStateId;

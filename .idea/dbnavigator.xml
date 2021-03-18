@@ -18,6 +18,7 @@
       <destination value="FILE" />
       <format value="EXCEL" />
       <charset value="windows-1254" />
+      <charset value="windows-1252" />
     </export-instructions>
   </component>
   <component name="DBNavigator.Project.DatabaseBrowserManager">
@@ -26,13 +27,20 @@
     <show-object-properties value="true" />
     <loaded-nodes>
       <connection connection-id="b77b8b2d-df0b-4aa6-90e7-8e191a5dfbaf">
-        <schema name="pg_catalog" object-types="view, table, function" />
+        <schema name="pg_catalog" object-types="function, view, table" />
+      </connection>
+      <connection connection-id="0b5b51f4-696b-4432-946c-15ade4454b79">
+        <schema name="pg_catalog" object-types="function, table, view" />
+        <schema name="public" object-types="function, table, view" />
       </connection>
     </loaded-nodes>
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="b77b8b2d-df0b-4aa6-90e7-8e191a5dfbaf">
-      <console name="Connection" type="STANDARD" schema="public" session="Main">select * from pg_catalog.pg_tables</console>
+    <console name="Connection" type="STANDARD" schema="public" session="Main"><![CDATA[select * from pg_catalog.pg_tables]]></console>
+    </connection>
+    <connection id="0b5b51f4-696b-4432-946c-15ade4454b79">
+      <console name="Connection" type="STANDARD" schema="public" session="Main"><![CDATA[select * from tp_customer]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
@@ -40,6 +48,8 @@
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="b77b8b2d-df0b-4aa6-90e7-8e191a5dfbaf" />
+
+    <connection id="0b5b51f4-696b-4432-946c-15ade4454b79" />
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />
